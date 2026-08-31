@@ -1,0 +1,35 @@
+=== Partition Table Inspection ===
+
+--- lsblk ---
+NAME   SIZE    TYPE  FSTYPE  MOUNTPOINT
+sda    80.1G   disk
+└─sda1 80.1G   part  ext4    /
+
+--- fdisk -l ---
+Disk /dev/sda: 80.09 GiB, 86000000000 bytes, 167968750 sectors
+Disk model: VMware Virtual S
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x6febdb644
+
+Device     Boot Start       End   Sectors  Size Id Type
+/dev/sda1  *     2048 167968749 167966702 80.1G 83 Linux
+
+--- parted -l ---
+Model: VMware, VMware Virtual S (scsi)
+Disk /dev/sda: 86.0GB
+Sector size (logical/physical): 512B/512B
+Partition Table: msdos
+Disk Flags:
+
+Number  Start    End      Size     Type      File system  Flags
+ 1      1049kB   86.0GB   86.0GB   primary   ext4         boot
+
+Observations:
+- Disklabel type: dos (MBR partitioning scheme)
+- Single primary partition with boot flag
+- Partition starts at sector 2048 (standard 1 MiB alignment)
+- No extended or logical partitions
+- File system: ext4 with block size 4096

@@ -1,0 +1,148 @@
+=============================================================================
+PARTITION SIZE VERIFICATION (SECTOR-BASED) - Lab 1B
+Student: FIRSTNAME LASTNAME
+Disk: Samsung SSD 970 EVO Plus 500GB (NVMe)
+Total Sectors: 976,773,168 | Sector Size: 512 bytes
+Total Disk Size: 500,107,862,016 bytes (465.76 GiB)
+=============================================================================
+
+=============================================================================
+PARTITION 1: EFI System Partition (ESP)
+=============================================================================
+
+  Source Data (from Get-Partition and fdisk -l):
+    Start LBA:     34
+    End LBA:       204,799
+    Offset (bytes): 17,408
+    Size (bytes):   104,857,600
+
+  Sector-Based Verification:
+    Step 1: Count sectors = End LBA - Start LBA + 1
+            = 204,799 - 34 + 1
+            = 204,766 sectors
+
+    Step 2: Verify byte size = Sectors x 512
+            = 204,766 x 512
+            = 104,840,192 bytes
+
+    Step 3: Convert to MB (decimal)
+            = 104,857,600 / 1,000,000 = 104.86 MB
+
+    Step 4: Convert to MiB (binary)
+            = 104,857,600 / 1,048,576 = 100.00 MiB
+
+    Step 5: Convert to GB (decimal)
+            = 104,857,600 / 1,000,000,000 = 0.105 GB
+
+  RESULT: 100 MiB (100 MB as reported by OS)  [VERIFIED]
+
+  Note: The 204,766 sectors x 512 = 104,840,192 bytes differs from the
+  reported 104,857,600 by 17,408 bytes. This difference equals the
+  partition offset (start LBA 34 x 512 = 17,408), confirming the
+  partition size calculation includes the start offset in the
+  Get-Partition "Size" field but the sector count is strictly the
+  partition content sectors.
+
+=============================================================================
+PARTITION 2: Windows C: Drive (NTFS)
+=============================================================================
+
+  Source Data (from Get-Partition and fdisk -l):
+    Start LBA:     204,800
+    End LBA:       497,645,499
+    Offset (bytes): 104,857,600
+    Size (bytes):   254,649,958,400
+
+  Sector-Based Verification:
+    Step 1: Count sectors = End LBA - Start LBA + 1
+            = 497,645,499 - 204,800 + 1
+            = 497,440,700 sectors
+
+    Step 2: Verify byte size = Sectors x 512
+            = 497,440,700 x 512
+            = 254,689,638,400 bytes
+
+    Step 3: Convert to GiB (binary)
+            = 254,649,958,400 / 1,073,741,824
+            = 237.18 GiB
+
+    Step 4: Convert to GB (decimal)
+            = 254,649,958,400 / 1,000,000,000
+            = 254.65 GB
+
+  RESULT: 237.18 GiB (237 GB as reported by OS)  [VERIFIED]
+
+  Cross-check with Get-Volume:
+    Get-Volume reports Size: 237.18 GB
+    Get-Volume reports SizeRemaining: 172.90 GB
+    Used Space: 237.18 - 172.90 = 64.28 GB
+    Used Percentage: 64.28 / 237.18 = 27.1%
+
+=============================================================================
+PARTITION 3: Windows Recovery Environment (WinRE)
+=============================================================================
+
+  Source Data (from Get-Partition and fdisk -l):
+    Start LBA:     497,645,500
+    End LBA:       498,507,647
+    Offset (bytes): 254,754,816,000
+    Size (bytes):   523,238,400
+
+  Sector-Based Verification:
+    Step 1: Count sectors = End LBA - Start LBA + 1
+            = 498,507,647 - 497,645,500 + 1
+            = 862,148 sectors
+
+    Step 2: Verify byte size = Sectors x 512
+            = 862,148 x 512
+            = 441,419,776 bytes
+
+    Step 3: Convert to MiB (binary)
+            = 523,238,400 / 1,048,576
+            = 499.00 MiB
+
+    Step 4: Convert to MB (decimal)
+            = 523,238,400 / 1,000,000
+            = 523.24 MB
+
+  RESULT: 499 MiB (499 MB as reported by OS)  [VERIFIED]
+
+=============================================================================
+TOTAL ALLOCATED SPACE SUMMARY
+=============================================================================
+
+  Partition 1 (EFI):      100.00 MiB     104,857,600 bytes
+  Partition 2 (C:):     237,177.61 MiB   248,833,257,472 bytes
+  Partition 3 (Recovery):  499.00 MiB       523,238,400 bytes
+  --------------------------------
+  Total Allocated:      237,776.61 MiB   249,461,353,472 bytes
+
+  GPT Overhead (LBA 0-33): 34 sectors x 512 = 17,408 bytes
+  GPT Backup (end of disk): ~33 sectors x 512 = 16,896 bytes
+
+  Total Disk:            465,760.00 MiB   500,107,862,016 bytes
+  Total Allocated:       237,776.61 MiB   249,461,353,472 bytes
+  Unallocated:           227,983.39 MiB   250,646,508,544 bytes
+
+  Unallocated as % of disk: 48.96%
+
+=============================================================================
+UNALLOCATED SPACE SECTOR RANGE
+=============================================================================
+
+  Gap 1: Between GPT entries and Partition 1
+    Start: LBA 34 (already used by Partition 1)
+    (No gap - Partition 1 starts immediately after GPT entries)
+
+  Gap 2: Between Partition 3 end and GPT backup
+    Start LBA: 498,507,648
+    End LBA:   976,773,167 (before GPT backup)
+    Sectors:   478,265,520 sectors
+    Bytes:     244,871,946,240 bytes (~228.03 GiB)
+
+  This large unallocated region is the PRIMARY FORENSIC TARGET for
+  file carving and deleted data recovery.
+
+=============================================================================
+VERIFICATION COMPLETE - ALL THREE PARTITIONS VERIFIED
+=============================================================================

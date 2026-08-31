@@ -1,0 +1,31 @@
+=== TASK D: Hashing and the Newline Problem ===
+
+--- Hello Files ---
+hello_with_newline.txt:    6 bytes (48 65 6c 6c 6f 0a)
+hello_without_newline.txt: 5 bytes (48 65 6c 6c 6f)
+
+MD5:
+  hello_with_newline.txt    : 09f7e02f1290be211da707a266f153b3
+  hello_without_newline.txt  : 8b1a9953c4611296a827abf8c4780d47
+
+SHA-256:
+  hello_with_newline.txt    : 66a045b452102c59d840ec097d59d9467e13a3f34f6494e539ffd32c1bb35f18
+  hello_without_newline.txt  : 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d176482631969
+
+--- Almustapha Files ---
+name_with_newline.txt:    10 bytes (41 6c 6d 75 73 74 61 70 68 61 0a)
+name_without_newline.txt:  9 bytes (41 6c 6d 75 73 74 61 70 68 61)
+
+MD5:
+  name_with_newline.txt    : 0a51db36b26916334170d525c5fbb840
+  name_without_newline.txt  : 516771b62a75174bdc4454f19cfe3e35
+
+SHA-256:
+  name_with_newline.txt    : e755283b0993d48a2643c09022d81e85e526681a46613797f0331dd02dc32154f
+  name_without_newline.txt  : 4ece228218bc06bc517247048c93de6c2b4bea75bc4e6052fdc6db0e565241cc
+
+--- Explanation ---
+File 1 contains characters + newline byte (0x0A). File 2 contains only the characters.
+The visible text looks identical, but underlying bytes differ.
+Cryptographic hashes are byte-sensitive, so MD5 and SHA-256 values differ completely.
+Use echo -n or printf without trailing newline to hash exactly the visible characters.

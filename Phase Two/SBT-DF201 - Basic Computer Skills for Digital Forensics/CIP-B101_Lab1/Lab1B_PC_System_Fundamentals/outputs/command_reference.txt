@@ -1,0 +1,131 @@
+=================================================================
+Lab 1B: Command Reference - Run these on YOUR Windows 10/11 system
+Take a screenshot after each section marked [SCREENSHOT]
+=================================================================
+
+IMPORTANT: Before starting, change YOUR-HOSTNAME to your actual hostname
+and FIRSTNAME LASTNAME to your actual name in the evidence folder path.
+
+--- SETUP ---
+Open Command Prompt as Administrator
+
+C:\Users\Public>mkdir CIP-B101_Lab1B_FIRSTNAME_LASTNAME
+C:\Users\Public>cd CIP-B101_Lab1B_FIRSTNAME_LASTNAME
+C:\Users\Public\CIP-B101_Lab1B_FIRSTNAME_LASTNAME>mkdir outputs
+C:\Users\Public\CIP-B101_Lab1B_FIRSTNAME_LASTNAME>cd outputs
+
+=================================================================
+PART A: SYSTEM IDENTIFICATION AND EVIDENCE LAYER MAPPING
+=================================================================
+
+--- A1: System Specification ---
+[SCREENSHOT 1: msinfo32]
+1. Press Win+R, type msinfo32, press Enter
+2. Take a screenshot of the System Summary page
+3. Save screenshot as: msinfo32_system_spec.png
+
+[SCREENSHOT 2: systeminfo command]
+systeminfo
+Take a screenshot of the full output
+
+--- A2: Storage Information ---
+[SCREENSHOT 3: Storage commands]
+wmic diskdrive get name,model,size,serialnumber,firmwarerevision
+wmic logicaldisk get caption,description,freespace,size,filesystem
+
+PowerShell (open PowerShell as Admin):
+Get-Disk
+Get-Partition
+Get-Volume
+Take a screenshot showing all three outputs
+
+--- A3: Evidence Layer Mapping ---
+No screenshot needed - this is a written analysis in your report
+
+=================================================================
+PART B: PROCESS AND THREAD INVESTIGATION
+=================================================================
+
+[SCREENSHOT 4: Process listing]
+tasklist
+Take a screenshot of the output
+
+PowerShell:
+Get-Process | Select-Object Name,Id,WorkingSet -First 20
+Take a screenshot
+
+=================================================================
+PART C: DISK SECTOR CALCULATIONS
+=================================================================
+
+No screenshot needed - this is a written calculation in your report
+Formula: Disk Size = number_of_sectors x bytes_per_sector
+To convert to GB: divide by 1024 x 1024 x 1024
+
+For YOUR disk, find sector count from:
+  wmic diskdrive get size,totalsectors,bytespersector
+
+=================================================================
+PART D: SAFE PARTITION TABLE INSPECTION
+=================================================================
+
+[SCREENSHOT 5: Windows Disk Management]
+1. Press Win+X, click Disk Management
+2. Take a screenshot showing all partitions
+3. Save as: disk_management.png
+
+[SCREENSHOT 6: PowerShell partition commands]
+Get-Disk
+Get-Partition
+Get-Volume
+Take a screenshot
+
+[SCREENSHOT 7: DiskPart (optional but recommended)]
+diskpart
+list disk
+select disk 0
+list partition
+exit
+Take a screenshot
+
+--- Linux/Kali Alternative ---
+[SCREENSHOT 8: Linux partition view]
+lsblk -f
+sudo fdisk -l
+sudo blkid
+df -h
+Take a screenshot
+
+=================================================================
+PART E: MBR, GPT AND BOOT PROCESS
+=================================================================
+
+No screenshot needed - this is a written comparison in your report
+
+=================================================================
+PART F: FILE SYSTEM IDENTIFICATION
+=================================================================
+
+No screenshot needed - this is a written analysis in your report
+
+=================================================================
+PART G: PARTITION SIZE VERIFICATION
+=================================================================
+
+No screenshot needed - this is a calculation in your report
+Use: partition_size = (ending_sector - starting_sector + 1) x 512
+Compare with Get-Partition output
+
+=================================================================
+SCREENSHOT CHECKLIST (8 screenshots needed)
+=================================================================
+1. msinfo32_system_spec.png      - System Information window
+2. systeminfo_cmd.png             - systeminfo command output  
+3. storage_info.png               - wmic + PowerShell storage commands
+4. process_list.png                - tasklist output
+5. disk_management.png            - Disk Management window
+6. partition_powershell.png        - Get-Disk/Get-Partition/Get-Volume
+7. diskpart_output.png            - diskpart list partition (optional)
+8. linux_partition_view.png        - lsblk/fdisk from Linux (optional)
+
+TOTAL MINIMUM SCREENSHOTS: 6 (8 with optional ones)

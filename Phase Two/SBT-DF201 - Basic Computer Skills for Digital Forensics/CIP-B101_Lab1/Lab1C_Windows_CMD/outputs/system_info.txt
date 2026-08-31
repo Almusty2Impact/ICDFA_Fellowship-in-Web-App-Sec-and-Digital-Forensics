@@ -1,0 +1,37 @@
+=== CIP-B101 Lab 1C: System Information Output ===
+
+--- systeminfo ---
+Host Name:                 DESKTOP-OG1A0K3
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          N/A
+Registered Organization:   N/A
+Product ID:                00330-80000-00000-AA123
+Original Install Date:     N/A
+System Boot Time:          N/A
+System Manufacturer:       Dell Inc.
+System Model:              N/A
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 158 Stepping 9
+                           Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz
+BIOS Version:              Dell Inc. 1.9.3, 3/8/2018
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC) W. Central Africa Standard Time
+Total Physical Memory:     16,026 MB
+Available Physical Memory: N/A
+Virtual Memory: Max Size:  N/A
+Virtual Memory: Available: N/A
+Virtual Memory: In Use:    N/A
+Network Card(s):           N/A
+
+--- wmic cpu get Name ---
+Name
+Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz

@@ -1,0 +1,53 @@
+=== CIP-B101 Lab 1C: File Operations (Copy, Rename, Delete) Output ===
+
+--- copy (Copy Files) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>cd workspace2
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>copy ..\workspace1\evidence1.txt evidence1_copy.txt
+        1 file(s) copied.
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>copy ..\workspace1\evidence2.txt evidence2_copy.txt
+        1 file(s) copied.
+
+--- xcopy (Recursive Directory Copy) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>xcopy workspace1 workspace3\ /E /I
+Does workspace3\ specify a file name or directory name on the target
+(F = file, D = directory)? D
+Copying workspace1\evidence1.txt
+Copying workspace1\evidence2.txt
+Copying workspace1\notes.txt
+        3 file(s) copied.
+
+--- ren (Rename Files) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>ren evidence1_copy.txt case_evidence1.txt
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>ren evidence2_copy.txt case_evidence2.txt
+
+--- dir (Verify Rename) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E2F9-902F
+
+ Directory of C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2
+
+08/09/2026  10:45 PM                24 case_evidence1.txt
+08/09/2026  10:45 PM                24 case_evidence2.txt
+               2 File(s)             48 bytes
+               0 Dir(s)   5,573,087,232 bytes free
+
+--- del (Delete Files) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>del case_evidence1.txt
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2>del case_evidence2.txt
+
+--- rmdir (Remove Directory) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>dir workspace2
+ Volume in drive C has no label.
+ Volume Serial Number is E2F9-902F
+
+ Directory of C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace2
+
+08/09/2026  10:46 PM    <DIR>          .
+08/09/2026  10:46 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)   5,573,087,232 bytes free

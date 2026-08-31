@@ -1,0 +1,42 @@
+=== TASK B: ASCII, UTF-8 and Hex Evidence Strings ===
+
+--- Text to Hex ---
+Input: Hello
+File: evidence_text.txt (created with echo -n)
+
+xxd output:
+00000000: 4865 6c6c 6f                                Hello
+
+xxd -p output:
+48656c6c6f
+
+--- Hex to ASCII ---
+printf "48656c6c6f" | xxd -r -p
+Output: Hello
+
+--- Python Conversion ---
+ASCII bytes: b'Hello'
+ASCII to hex: 48656c6c6f
+Hex to ASCII: Hello
+ord(H): 72
+chr(72): H
+
+--- Character Mapping ---
+  'H' -> hex: 48 | decimal: 72 | binary: 01001000
+  'e' -> hex: 65 | decimal: 101 | binary: 01100101
+  'l' -> hex: 6c | decimal: 108 | binary: 01101100
+  'l' -> hex: 6c | decimal: 108 | binary: 01101100
+  'o' -> hex: 6f | decimal: 111 | binary: 01101111
+
+--- Named Evidence File ---
+File: Almustapha_lab1a.txt
+Content: Digital Forensics Begins With Bytes
+Hex: 4469676974616c204466f72656e7369637320426567696e732057697468204279746573
+
+--- Newline Note ---
+echo "Hello" appends 0x0A (newline) => 6 bytes
+
+echo -n "Hello" no newline => 5 bytes
+
+Forensic note: Not all hex represents readable text. Bytes may be binary structures,
+compressed data, encrypted content, or image data.

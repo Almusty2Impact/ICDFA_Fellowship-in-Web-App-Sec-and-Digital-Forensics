@@ -1,0 +1,41 @@
+=== PC Boot Process (BIOS/Legacy Mode) ===
+
+Stage 1: Power-On and POST (Power-On Self-Test)
+  - Hardware is initialized and checked (CPU, RAM, storage devices)
+  - POST verifies essential components are functional
+  - Forensic relevance: Hardware failure or tampering may affect evidence access
+
+Stage 2: BIOS Firmware
+  - BIOS reads CMOS/firmware settings for boot device order
+  - Boot mode is Legacy/BIOS (confirmed by absence of /sys/firmware/efi)
+  - Forensic relevance: Boot configuration may explain partition style and boot artifacts
+
+Stage 3: MBR Boot Record (Sector 0)
+  - System reads first 512-byte sector of the boot disk (/dev/sda sector 0)
+  - MBR contains boot code (first 446 bytes), partition table (64 bytes), and boot signature (2 bytes: 55 AA)
+  - Disklabel type: dos (MBR) as confirmed by fdisk
+  - Partition 1 is flagged as bootable (asterisk in fdisk output)
+  - Forensic relevance: MBR damage can prevent system boot and affect partition interpretation
+
+Stage 4: Boot Loader (GRUB)
+  - MBR boot code loads GRUB (Grand Unified Boot Loader) from the boot partition
+  - GRUB reads its configuration from /boot/grub/grub.cfg
+  - GRUB presents the boot menu (if configured) and loads the kernel
+  - Forensic relevance: GRUB configuration may reveal multi-boot setups or hidden OS entries
+
+Stage 5: Kernel Loading
+  - Linux kernel (vmlinuz) is loaded into memory
+  - Initial RAM disk (initrd/initramfs) provides temporary root filesystem with drivers
+  - Kernel takes control of hardware and starts init process (PID 1)
+
+Stage 6: Operating System Control
+  - Init system (systemd) starts services sequentially or in parallel
+  - File systems are mounted, network is configured, login prompts appear
+  - User activity begins and logs start accumulating
+  - Forensic relevance: This is where evidence generation begins in earnest
+
+System-Specific Notes:
+- This system uses BIOS/Legacy boot mode (not UEFI)
+- Evidence: /sys/firmware/efi directory does not exist
+- Partition table is MBR (dos) with a single ext4 partition
+- No EFI System Partition (ESP) is present

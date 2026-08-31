@@ -1,0 +1,94 @@
+============================================================
+Lab 1A: Number Systems, ASCII, Timestamps, Data Representation
+============================================================
+
+--- TASK A: Number System Conversions ---
+
+[Manual Conversion Results]
+101010 (binary)   -> decimal: 42
+AB2 (hex)         -> decimal: 2738
+126 (decimal)     -> binary:  0b1111110
+2738 (decimal)    -> hex:     0xab2
+101010110010 (bin)-> hex:     0xab2
+
+[Shell Command Equivalents]
+echo $((2#101010))          # 42
+echo $((16#AB2))            # 2738
+echo "obase=2;126" | bc    # 1111110
+printf "%X\n" 2738         # AB2
+python3 -c 'print(hex(int(101010110010,2)))'  # 0xab2
+
+--- TASK B: ASCII, UTF-8 and Hex Evidence ---
+
+Text: b'Hello'
+ASCII to hex: 48656c6c6f
+Hex to ASCII: Hello
+ord('H') = 72
+chr(72) = 'H'
+
+[Character Mapping for 'Hello']
+  'H' -> hex: 48 | decimal: 72 | binary: 01001000
+  'e' -> hex: 65 | decimal: 101 | binary: 01100101
+  'l' -> hex: 6c | decimal: 108 | binary: 01101100
+  'l' -> hex: 6c | decimal: 108 | binary: 01101100
+  'o' -> hex: 6f | decimal: 111 | binary: 01101111
+
+Almustapha_lab1a.txt hex: 4469676974616c20466f72656e7369637320426567696e732057697468204279746573
+
+--- TASK C: Epoch Time and Forensic Timestamps ---
+
+[Unix Epoch Conversions]
+  1643643491 -> 2022-01-31 15:38:11+00:00
+  1675008832 -> 2023-01-29 16:13:52+00:00
+
+Current Unix timestamp: 1786275242
+Local time: 2026-08-09 11:34:02.045124
+UTC time:   2026-08-09 11:34:02.045127+00:00
+
+[Mac Absolute Time Conversion]
+  Mac epoch offset: 978307200 seconds
+  Mac Absolute Time 725846400 + offset = Unix 1704153600
+  UTC result: 2024-01-02 00:00:00+00:00
+
+--- TASK D: Hashing and the Newline Problem ---
+
+hello_with_newline.txt (6 bytes):
+  MD5:    09f7e02f1290be211da707a266f153b3
+  SHA256: 66a045b452102c59d840ec097d59d9467e13a3f34f6494e539ffd32c1bb35f18
+hello_without_newline.txt (5 bytes):
+  MD5:    8b1a9953c4611296a827abf8c47804d7
+  SHA256: 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
+
+name_with_newline.txt (11 bytes):
+  MD5:    0a51db36b26916334170d525c5fbb840
+  SHA256: e755283b09934d8a2643c09022d81e85e526681a46613797f0331d0d2c32154f
+name_without_newline.txt (10 bytes):
+  MD5:    516771b62a75174bd1c4454f19cfe3e5
+  SHA256: 4ece228218bc06bc517247048c93de6c2b4bea75bc4e6052fdc6db0e565241cc
+
+--- TASK E: Endianness ---
+
+System byte order: little
+Raw bytes: 78563412
+Little-endian: 305419896
+Big-endian:   2018915346
+
+[Endianness Comparison]
+Hex             Little-Endian       Big-Endian
+----------------------------------------------
+01000000                    1       16,777,216
+FF000000                  255    4,278,190,080
+00000100               65,536              256
+78563412          305,419,896    2,018,915,346
+
+--- TASK F: Mini Forensic Case ---
+
+EVID-001: Hello ICDFA
+EVID-002: Hi
+EVID-003: 2023-01-29 16:13:52+00:00
+EVID-004: 2024-01-02 00:00:00+00:00
+EVID-005 LE: 305419896
+EVID-005 BE: 2018915346
+
+============================================================
+Lab 1A Complete.

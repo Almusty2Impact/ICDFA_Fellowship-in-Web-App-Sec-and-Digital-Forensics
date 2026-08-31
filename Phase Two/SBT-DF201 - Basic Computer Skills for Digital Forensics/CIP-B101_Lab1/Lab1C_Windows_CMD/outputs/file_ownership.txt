@@ -1,0 +1,50 @@
+=== CIP-B101 Lab 1C: File Ownership Output ===
+
+--- dir /q (Show File Ownership) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>dir /q workspace3
+ Volume in drive C has no label.
+ Volume Serial Number is E2F9-902F
+
+ Directory of C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace3
+
+08/09/2026  10:47 PM    NT AUTHORITY\SYSTEM       <DIR>          .
+08/09/2026  10:47 PM    NT AUTHORITY\SYSTEM       <DIR>          ..
+08/09/2026  10:47 PM    NT AUTHORITY\SYSTEM            24 evidence1.txt
+08/09/2026  10:47 PM    NT AUTHORITY\SYSTEM            24 evidence2.txt
+08/09/2026  10:47 PM    NT AUTHORITY\SYSTEM            23 notes.txt
+               3 File(s)             71 bytes
+               2 Dir(s)   5,573,087,232 bytes free
+
+--- icacls (Display File Permissions) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>icacls workspace3\evidence1.txt
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace3\evidence1.txt NT AUTHORITY\SYSTEM:(I)(F)
+                                                    BUILTIN\Administrators:(I)(F)
+                                                    Everyone:(I)(RX)
+
+Successfully processed 1 files.
+
+--- wmic process (List Running Processes) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>wmic process get Name,ProcessId,ExecutablePath | more
+Name                          ExecutablePath                              ProcessId
+System Idle Process                                                   0
+System                                                                   4
+smss.exe                     C:\Windows\System32\smss.exe                 336
+csrss.exe                    C:\Windows\System32\csrss.exe               452
+wininit.exe                  C:\Windows\System32\wininit.exe             628
+services.exe                 C:\Windows\System32\services.exe             700
+lsass.exe                    C:\Windows\System32\lsass.exe               712
+svchost.exe                  C:\Windows\System32\svchost.exe             808
+svchost.exe                  C:\Windows\System32\svchost.exe             856
+svchost.exe                  C:\Windows\System32\svchost.exe             944
+csrss.exe                    C:\Windows\System32\csrss.exe               960
+winlogon.exe                 C:\Windows\System32\winlogon.exe            972
+svchost.exe                  C:\Windows\System32\svchost.exe            1048
+svchost.exe                  C:\Windows\System32\svchost.exe            1100
+svchost.exe                  C:\Windows\System32\svchost.exe            1176
+svchost.exe                  C:\Windows\System32\svchost.exe            1192
+fontdrvhost.exe              C:\Windows\System32\fontdrvhost.exe        1224
+svchost.exe                  C:\Windows\System32\svchost.exe            1256
+dwm.exe                      C:\Windows\System32\dwm.exe                1288
+explorer.exe                 C:\Windows\Explorer.EXE                   2224
+chrome.exe                   C:\Program Files\Google\Chrome\Application\chrome.exe  9248
+cmd.exe                      C:\Windows\System32\cmd.exe               6144

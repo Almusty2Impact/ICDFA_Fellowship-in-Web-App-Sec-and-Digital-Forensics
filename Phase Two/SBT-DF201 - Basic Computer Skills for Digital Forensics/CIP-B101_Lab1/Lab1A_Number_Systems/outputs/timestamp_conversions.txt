@@ -1,0 +1,27 @@
+=== TASK C: Epoch Time and Forensic Timestamps ===
+
+--- Unix Epoch Conversions ---
+
+Timestamp Value | Format       | Conversion Command        | Readable UTC Result
+-----------------------------------------------------------------------------
+1643643491      | Unix seconds | date -u -d @1643643491   | Mon 2022-01-31 15:38:11 UTC
+1675008832      | Unix seconds | date -u -d @1675008832   | Sun 2023-01-29 16:13:52 UTC
+725846400       | Mac Absolute | python3: +978307200       | Tue 2024-01-02 00:00:00 UTC
+1786271224      | Unix seconds | date +%s                  | Sun 2026-08-09 ~10:33 UTC
+
+--- Local vs UTC ---
+Local (EDT): Sun Aug  9 06:35:47 AM EDT 2026
+UTC:        Sun Aug  9 10:35:47 AM UTC 2026
+Difference:  4 hours (EDT = UTC-4)
+
+--- Mac Absolute Time Calculation ---
+Mac epoch: 2001-01-01 00:00:00 UTC
+Unix epoch: 1970-01-01 00:00:00 UTC
+Offset: 978,307,200 seconds
+
+725846400 (Mac) + 978307200 (offset) = 1704153600 (Unix)
+1704153600 -> 2024-01-02 00:00:00 UTC
+
+--- Forensic Warning ---
+Always state whether output is UTC or local time.
+Timezone confusion can seriously weaken the reliability of findings.

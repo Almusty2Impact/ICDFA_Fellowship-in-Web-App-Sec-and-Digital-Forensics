@@ -1,0 +1,4 @@
+total 12
+drwxrwxr-x 2 kali kali 4096 Aug 15 15:08 .
+drwxrwxr-x 8 kali kali 4096 Aug 15 15:05 ..
+-rw-rw-r-- 1 kali kali   75 Aug 15 15:08 evidence_note.txt

@@ -1,0 +1,18 @@
+=== TASK E: Endianness and Data Stored in Memory ===
+
+--- System Byte Order ---
+sys.byteorder = little
+Architecture: x86-64 (Kali Linux)
+
+--- Interpretation Comparison ---
+Raw Hex Bytes  | Little-Endian     | Big-Endian        | Explanation
+-----------------------------------------------------------------------
+01000000       | 1                 | 16,777,216        | 01 is LSB (LE) vs MSB (BE)
+FF000000       | 255               | 4,278,190,080     | FF=255 in LSB vs ~4GB in MSB
+00000100       | 65,536            | 256               | 01 byte at different positions
+78563412       | 305,419,896       | 2,018,915,346     | 6.6x difference
+
+--- Forensic Relevance ---
+The same four bytes produce different values depending on byte order.
+MBR partition tables use little-endian. Network protocols (TCP/IP) use big-endian.
+Misinterpreting endianness can lead to wrong file sizes, timestamps, or addresses.

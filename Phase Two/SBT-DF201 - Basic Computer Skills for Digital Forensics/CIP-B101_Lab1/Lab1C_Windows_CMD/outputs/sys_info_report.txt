@@ -1,0 +1,50 @@
+==========================
+WINDOWS INFO
+==========================
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19045 N/A Build 19045
+BIOS Version:              Dell Inc. 1.9.3, 3/8/2018
+System Type:               x64-based PC
+
+==========================
+HARDWARE INFO
+==========================
+Total Physical Memory:     16,026 MB
+Name
+Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz
+Model                      Name                    Size
+SAMSUNG MZVLB256HAHQ-000L7 \\.\PHYSICALDRIVE0   256052966400
+
+==========================
+NETWORK INFO
+==========================
+    IPv4 Address. . . . . . . . . . . : 172.16.0.2
+    IPv4 Address. . . . . . . . . . . : 172.25.240.1
+    IPv4 Address. . . . . . . . . . . : 172.19.112.1
+    IPv4 Address. . . . . . . . . . . : 192.168.56.1
+    IPv4 Address. . . . . . . . . . . : 192.168.102.1
+    IPv4 Address. . . . . . . . . . . : 192.168.199.1
+    IPv4 Address. . . . . . . . . . . : 192.168.18.4
+Description                  MAC Address
+Microsoft Kernel Debug Network Adapter
+Intel(R) Dual Band Wireless-AC 8265       30:24:32:B5:1B:CF
+Intel(R) Ethernet Connection (5) I219-LM 10:65:30:83:F8:B5
+Microsoft Wi-Fi Direct Virtual Adapter   30:24:32:B5:1B:D0
+WAN Miniport (SSTP)
+WAN Miniport (IKEv2)
+WAN Miniport (L2TP)
+WAN Miniport (PPTP)
+WAN Miniport (PPPOE)
+WAN Miniport (IP)             76:B6:20:52:41:53
+WAN Miniport (IPv6)           90:C7:20:52:41:53
+WAN Miniport (Network Monitor)      A0:BD:20:52:41:53
+Microsoft Wi-Fi Direct Virtual Adapter   32:24:32:B5:1B:CF
+Bluetooth Device (Personal Area Network) 30:24:32:B5:1B:D3
+VirtualBox Host-Only Ethernet Adapter    0A:00:27:00:00:0A
+VMware Virtual Ethernet Adapter for VMnet1 00:50:56:C0:00:01
+Hyper-V Virtual Switch Extension Adapter
+Hyper-V Virtual Switch Extension Adapter for VMnet8 00:50:56:C0:00:08
+Hyper-V Virtual Ethernet Adapter       00:15:5D:24:A0:C8
+Hyper-V Virtual Switch Extension Adapter
+Hyper-V Virtual Ethernet Adapter       00:15:5D:D6:EC:05
+Wintun Userspace Tunnel

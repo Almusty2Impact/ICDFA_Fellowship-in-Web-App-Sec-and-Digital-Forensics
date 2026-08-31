@@ -1,0 +1,18 @@
+=== MBR vs GPT Comparison ===
+
+Feature              | MBR (Master Boot Record)          | GPT (GUID Partition Table)
+---------------------|------------------------------------|-------------------------------------
+Age/Design           | Older, from 1980s                  | Modern, part of UEFI specification
+Max Disk Size        | ~2 TB limitation                  | Up to ~9.4 ZB
+Partition Entries    | Max 4 primary partitions          | Up to 128 partitions (default)
+Partition Table Loc. | First sector (sector 0), 64 bytes  | Primary header in LBA 1, backup at end of disk
+Boot Code            | Shares sector 0 with partition table | Separate EFI System Partition (ESP)
+Integrity            | No built-in backup or checksum     | CRC32 checksums, backup GPT header
+Forensic Issue       | Critical info in sector 0; damage  | Backup structures aid recovery
+                     | can destroy partition interpretation| and validation
+Boot Mode            | BIOS/Legacy                        | UEFI (can also support legacy boot)
+Partition Types      | Primary, Extended, Logical         | All partitions are equal (no extended)
+Identification       | 1-byte partition type ID (0x83)    | 16-byte GUID per partition
+
+This System: Uses MBR (disklabel type: dos) as confirmed by fdisk.
+Evidence: Disk identifier 0x6febdb644, partition type ID 83 (Linux).

@@ -1,0 +1,33 @@
+=== CIP-B101 Lab 1C: File Creation Output ===
+
+--- echo > (Create File with Content) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>cd workspace1
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>echo This is evidence file 1 > evidence1.txt
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>echo This is evidence file 2 > evidence2.txt
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>echo Important case notes > notes.txt
+
+--- type (Display File Contents) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>type evidence1.txt
+This is evidence file 1
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>type evidence2.txt
+This is evidence file 2
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>type notes.txt
+Important case notes
+
+--- dir (Verify Files Created) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is E2F9-902F
+
+ Directory of C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace1
+
+08/09/2026  10:43 PM                24 evidence1.txt
+08/09/2026  10:43 PM                24 evidence2.txt
+08/09/2026  10:43 PM                23 notes.txt
+               3 File(s)             71 bytes
+               0 Dir(s)   5,573,087,232 bytes free

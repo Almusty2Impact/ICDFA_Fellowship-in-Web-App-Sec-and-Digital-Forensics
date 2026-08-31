@@ -1,0 +1,26 @@
+=== System Information ===
+
+--- OS Info ---
+Linux kali 6.12.38+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12) x86_64 GNU/Linux
+
+--- CPU ---
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Vendor ID:             GenuineIntel
+Model name:            Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz
+CPU family:            6
+Model:                 158
+Thread(s) per core:    1
+Core(s) per socket:    2
+Socket(s):             2
+
+--- Memory ---
+               total    used    free   shared  buff/cache   available
+Mem:           1.9Gi   898Mi   254Mi     32Mi       1.0Gi       1.0Gi
+Swap:          953Mi      0B   953Mi
+
+--- Boot Mode ---
+Boot Mode: BIOS/Legacy

@@ -1,0 +1,92 @@
+=============================================================================
+LINUX PARTITION INFORMATION - Lab 1B
+Student: FIRSTNAME LASTNAME
+Note: Output simulated for a Linux forensic workstation examining the same
+Samsung SSD 970 EVO Plus 500GB via a USB adapter or write-blocker.
+=============================================================================
+
+=============================================================================
+COMMAND: lsblk /dev/sda
+=============================================================================
+
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda      8:0    0 465.8G  0 disk
+├─sda1   8:1    0   100M  0 part
+├─sda2   8:2    0   237G  0 part
+└─sda3   8:3    0   499M  0 part
+
+=============================================================================
+COMMAND: lsblk -f /dev/sda
+=============================================================================
+
+NAME   FSTYPE LABEL    UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+sda
+├─sda1 vfat            1A2B-3C4D                              77.5M    23%
+├─sda2 ntfs   Windows  A1B2C3D4E5F6A1B2                      172.9G    27%
+└─sda3 ntfs            E5F6A1B2C3D4E5F6
+
+=============================================================================
+COMMAND: fdisk -l /dev/sda
+=============================================================================
+
+Disk /dev/sda: 465.76 GiB, 500107862016 bytes, 976773168 sectors
+Disk model: Samsung SSD 970
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: gpt
+Disk identifier: A1B2C3D4-E5F6-7890-ABCD-EF1234567890
+
+Device        Start       End   Sectors   Size Type
+/dev/sda1         34    204799    204766   100M Microsoft basic data
+/dev/sda2     204800 497645499 497440700   237G Microsoft basic data
+/dev/sda3  497645500 498507647    862148   499M Windows recovery
+
+=============================================================================
+COMMAND: blkid /dev/sda*
+=============================================================================
+
+/dev/sda: PTUUID="a1b2c3d4-e5f6-7890-abcd-ef1234567890" PTTYPE="gpt"
+/dev/sda1: UUID="1A2B-3C4D" BLOCK_SIZE="512" TYPE="vfat" PARTUUID="f8a1b2c3-0001-0000-0000-000000000001"
+/dev/sda2: LABEL="Windows" UUID="A1B2C3D4E5F6A1B2" BLOCK_SIZE="4096" TYPE="ntfs" PARTUUID="f8a1b2c3-0002-0000-0000-000000000002"
+/dev/sda3: UUID="E5F6A1B2C3D4E5F6" BLOCK_SIZE="4096" TYPE="ntfs" PARTUUID="f8a1b2c3-0003-0000-0000-000000000003"
+
+=============================================================================
+COMMAND: df -h (mounted partitions)
+=============================================================================
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       238G   64G  173G  27% /mnt/evidence/c_drive
+/dev/sda1       100M   23M   78M  23% /mnt/evidence/efi
+/dev/sda3       499M  320M  180M  64% /mnt/evidence/recovery
+
+=============================================================================
+COMMAND: parted /dev/sda print
+=============================================================================
+
+Model: Samsung SSD 970 EVO Plus (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End     Size    File system  Name                 Flags
+ 1      17.4kB  105MB   105MB   fat32       EFI System Partition  boot, esp
+ 2      105MB   255GB   255GB   ntfs        Basic data           msftdata
+ 3      255GB   255GB   499MB   ntfs        Windows RE           hidden, diag
+
+=============================================================================
+FORENSIC NOTES
+=============================================================================
+
+1. The NTFS volume serial number (A1B2C3D4E5F6A1B2) can be cross-referenced
+   with Windows registry entries and event logs to confirm disk identity.
+
+2. FAT32 EFI partition contains boot loader files that may reveal
+   boot configuration changes and Secure Boot state.
+
+3. Linux tools provide sector-precise partition boundaries essential for
+   targeted imaging and file carving of unallocated regions.
+
+4. The blkid PARTUUID values correspond to the GPT unique partition GUIDs
+   and can be used to track partition reordering or tampering.

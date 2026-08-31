@@ -1,0 +1,18 @@
+=== CIP-B101 Lab 1C: Text Search Output ===
+
+--- findstr (Search for String in Files) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>cd workspace3
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace3>findstr "evidence" *.txt
+evidence1.txt:This is evidence file 1
+evidence2.txt:This is evidence file 2
+
+--- findstr /I (Case-Insensitive Search) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace3>findstr /I "evidence" *.txt
+evidence1.txt:This is evidence file 1
+evidence2.txt:This is evidence file 2
+
+--- findstr /N (Show Line Numbers) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace3>findstr /N "evidence" *.txt
+evidence1.txt:1:This is evidence file 1
+evidence2.txt:1:This is evidence file 2

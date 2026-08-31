@@ -1,0 +1,17 @@
+=== CIP-B101 Lab 1C: PATH and Application Finding Output ===
+
+--- echo %PATH% (Display PATH Variable) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>echo %PATH%
+C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Dell\Dell Data Protection\Security Tools;C:\Program Files (x86)\Dell\Dell Data Protection\Security Tools;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY\;C:\Program Files\7-Zip;C:\Program Files\Wireshark;C:\Program Files\HashMyFiles;C:\Users\Public\Desktop\tools\SysinternalsSuite;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\Public\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Public\AppData\Local\Programs\Python\Python311\;C:\Users\Public\AppData\Roaming\npm;C:\Program Files\VirtualBox\;C:\Program Files\openvpn\bin
+
+--- where (Locate Executable) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>where notepad
+C:\Windows\System32\notepad.exe
+
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>where cmd
+C:\Windows\System32\cmd.exe
+
+--- vol (Volume Information) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>vol
+ Volume in drive C has no label.
+ Volume Serial Number is E2F9-902F

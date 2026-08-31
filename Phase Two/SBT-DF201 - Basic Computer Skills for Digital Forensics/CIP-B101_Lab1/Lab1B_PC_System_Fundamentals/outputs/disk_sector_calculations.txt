@@ -1,0 +1,46 @@
+=== Disk Sector and Size Calculations ===
+
+--- Part C1: Slide Calculation ---
+Given values:
+  Sectors per track = 400
+  Heads = 12
+  Cylinders = 17,000
+  Bytes per sector = 512
+
+Step 1: Total sectors = 400 x 12 x 17,000 = 81,600,000 sectors
+Step 2: Total bytes  = 81,600,000 x 512 = 41,779,200,000 bytes
+Step 3: KB = 41,779,200,000 / 1,024 = 40,800,000.00 KB
+Step 4: MB = 40,800,000 / 1,024 = 39,843.75 MB
+Step 5: GB = 39,843.75 / 1,024 = 38.91 GB
+
+--- Part C2: System Partition Calculation ---
+Source: fdisk -l /dev/sda
+
+Disk: /dev/sda
+  Total size: 80.09 GiB (86,000,000,000 bytes)
+  Total sectors: 167,968,750
+  Sector size: 512 bytes
+
+Partition 1 (/dev/sda1):
+  Start sector:  2,048
+  End sector:    167,968,749
+  Total sectors: 167,966,702
+  File system:   ext4
+  Type:          Linux (ID 83)
+
+Calculation:
+  Size in bytes  = 167,966,702 x 512 = 85,998,951,424 bytes
+  Size in KiB    = 85,998,951,424 / 1,024 = 83,983,350.609 KiB
+  Size in MiB    = 83,983,350.609 / 1,024 = 82,015.381 MiB
+  Size in GiB    = 82,015.381 / 1,024 = 80.09 GiB
+
+Note: This system has only ONE partition (sda1). No partition 2 exists.
+The MBR/pre-partition gap occupies sectors 0-2047 (1,048,576 bytes = 1 MiB).
+
+OS-reported size (df -hT): 79G (ext4)
+Difference explanation: The ~1 GiB difference between calculated (80.09 GiB)
+and reported (79G) is due to ext4 file system overhead including:
+  - Reserved blocks for root (typically 5% by default)
+  - Journal area
+  - Inode tables and metadata structures
+  - Block group descriptors

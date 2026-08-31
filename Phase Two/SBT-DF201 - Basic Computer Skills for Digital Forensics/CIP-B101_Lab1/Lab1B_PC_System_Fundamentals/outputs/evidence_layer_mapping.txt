@@ -1,0 +1,22 @@
+=== Evidence Layer Mapping ===
+
+Layer / Source      | Example Evidence                              | Where Found                          | Why It Matters
+--------------------|-----------------------------------------------|--------------------------------------|----------------------------------------------
+User Layer          | Opened files, search terms, typed commands    | .bash_history, recent files, browser | Links user actions to system activity
+Application Layer    | Office metadata, browser cache, chat logs      | /home/user/.config, app databases    | Shows what software created evidence
+OS Layer            | Event logs, installed programs, user profiles  | /var/log, systemd journal, /etc/passwd| Shows system events and account activity
+Disk Layer          | Deleted files, file fragments, unallocated     | Unallocated space, slack space, MFT | Supports file recovery and timeline analysis
+Memory/Process Layer| Running malware, PIDs, network connections      | RAM capture, /proc, process list     | Shows live system behavior
+
+--- Why Evidence Exists in Multiple Layers ---
+
+A single user action (such as opening a document) generates evidence at multiple layers simultaneously:
+- User layer: The shell history records the command used
+- Application layer: LibreOffice/OpenOffice logs the file access
+- OS layer: The kernel records file access through inotify/syscall
+- Disk layer: File system metadata (inode) records the access timestamp
+- Memory layer: The process table shows the running application
+
+This multi-layer nature is what makes digital forensics powerful. Even if evidence is
+deleted from one layer (e.g., clearing bash_history), remnants may persist in other layers
+(e.g., disk-level recovery of deleted history file, or OS-level audit logs).

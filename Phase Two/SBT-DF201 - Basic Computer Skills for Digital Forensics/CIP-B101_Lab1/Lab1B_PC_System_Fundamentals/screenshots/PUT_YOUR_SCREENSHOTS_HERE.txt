@@ -1,0 +1,7 @@
+Save your 6 screenshots here:
+1. msinfo32_system_spec.png - msinfo32 window
+2. systeminfo_cmd.png - systeminfo output
+3. storage_info.png - wmic + PowerShell storage
+4. process_list.png - tasklist output
+5. disk_management.png - Disk Management
+6. partition_powershell.png - Get-Disk/Get-Partition/Get-Volume

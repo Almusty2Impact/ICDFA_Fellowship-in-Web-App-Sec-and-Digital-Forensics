@@ -1,0 +1,33 @@
+=== CIP-B101 Lab 1C: PATH Modification Output ===
+
+--- copy sys_info.bat to workspace4 ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>copy scripts\sys_info.bat workspace4\sys_info.bat
+Overwrite workspace4\sys_info.bat? (Yes/No/All): Y
+        1 file(s) copied.
+
+--- setx PATH (Add workspace4 to PATH) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>setx PATH "%PATH%;C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\workspace4"
+
+WARNING: The data being saved is truncated to 1024 characters.
+
+SUCCESS: Specified value was saved.
+
+--- cd \ (Navigate to Root) ---
+C:\Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf>cd \
+
+--- sys_info.bat from Root (After PATH Modification) ---
+C:\>sys_info.bat
+Please wait... Checking system information.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+The system cannot find the path specified.
+
+NOTE: The sys_info.bat script uses relative paths (outputs\sys_info_report.txt),
+which fail when executed from C:\ because the relative path does not exist at root.
+This demonstrates that PATH allows locating executables globally, but scripts
+using relative internal paths must account for their working directory.
+
+--- type sys_info_report.txt (Full Output) ---
+C:\>type \Users\Public\CIP-B101_Lab1C_Almustapha_Yusuf\outputs\sys_info_report.txt
+(See sys_info_report.txt for full content)

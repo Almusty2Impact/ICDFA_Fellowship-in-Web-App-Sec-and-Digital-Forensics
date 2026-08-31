@@ -1,0 +1,52 @@
+=== File System Identification and Interpretation ===
+
+--- Identified File Systems ---
+
+Device      File System  Block Size  Label  Usage
+/dev/sda1   ext4         4096        root   System root partition
+
+tmpfs entries (virtual, non-persistent):
+  udev       devtmpfs    -           -      Device file system
+  tmpfs      tmpfs        -           -      Temporary memory file systems
+
+--- ext4 File System Details ---
+Total size:      79G (df -hT)
+Used space:      26G (35% usage)
+Available space:  49G
+Mount point:     / (root)
+UUID:            4111f04f-67ad-4d5d-a01b-b6cc151feb35
+PARTUUID:        fedbd644-01
+Journaling:      Yes (ext4 uses journaling by default)
+
+--- Why File Systems Matter in Digital Forensics ---
+
+File systems are critical in digital forensics for several reasons:
+
+1. Evidence of File Activity: File systems maintain metadata including creation,
+   modification, and access timestamps (MACE timestamps in NTFS, similar in ext4)
+   that are essential for building forensic timelines.
+
+2. Deleted File Recovery: Understanding the file system structure allows forensic
+   analysts to recover deleted files. In ext4, deleted file inodes may still exist
+   until overwritten. The journal can also contain evidence of recent file operations.
+
+3. Metadata Interpretation: Each file system stores metadata differently. NTFS uses
+   the Master File Table (MFT), while ext4 uses inodes. Knowing the file system
+   type is required to correctly parse and interpret this metadata.
+
+4. File System Artifacts: Mount points, journal entries, and superblock data can
+   reveal when devices were connected, how the system was configured, and whether
+   any anti-forensic techniques (such as disk wiping) were attempted.
+
+5. Tool Selection: Forensic tools must be chosen based on the file system. Tools
+   designed for NTFS may not work correctly on ext4 volumes, and vice versa.
+
+--- Comparison with Other Common File Systems ---
+
+File System | Common OS        | Forensic Importance
+FAT/FAT32  | USB drives, older | Simple structure, limited metadata, no journaling
+NTFS       | Modern Windows  | MFT entries, timestamps, permissions, journaling (USN Journal)
+ext4       | Linux systems    | Inode-based metadata, journal, supports forensic timeline analysis
+XFS        | Linux/RHEL       | Advanced features, large file support, may affect recovery
+HFS+       | Older macOS      | Important in Mac forensics; catalog file contains file records
+btrfs      | Linux (advanced) | Copy-on-write, snapshots may preserve deleted file versions

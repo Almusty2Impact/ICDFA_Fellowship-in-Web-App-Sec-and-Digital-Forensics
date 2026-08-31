@@ -1,0 +1,19 @@
+=== Running Processes (Top 20 by Memory) ===
+
+PID   COMMAND         %MEM  PURPOSE
+1905  pwsh            7.5%  PowerShell 7 terminal session
+1350  xfwm4           6.2%  Xfce window manager
+1008  Xorg            5.7%  X11 display server
+1868  qterminal       3.3%  QTerminal terminal emulator
+1412  wrapper-2.0     3.1%  Xfce4 panel plugin wrapper
+1481  blueman-applet  2.9%  Bluetooth manager applet
+1402  xfdesktop       2.9%  Xfce desktop manager
+1387  xfce4-panel     2.1%  Xfce taskbar/panel
+1465  nm-applet       2.1%  NetworkManager applet
+1488  vmtoolsd        2.1%  VMware Tools daemon
+849   fail2ban-server 2.1%  Intrusion prevention daemon
+
+Top 3 Processes Selected:
+1. PID 1905 (pwsh) - PowerShell 7.5.2 interactive shell, the user's active terminal
+2. PID 1008 (Xorg) - X11 display server providing the graphical environment
+3. PID 1350 (xfwm4) - Xfce window manager managing all graphical windows

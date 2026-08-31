@@ -1,0 +1,41 @@
+=== TASK A: Number System Conversions ===
+
+--- Manual Methods ---
+
+1. 101010 (binary) to decimal:
+   Positional weights: 0x2^0 + 1x2^1 + 0x2^2 + 1x2^3 + 0x2^4 + 1x2^5
+   = 0 + 2 + 0 + 8 + 0 + 32 = 42
+
+2. AB2 (hexadecimal) to decimal:
+   A=10, B=11
+   2x16^0 + 11x16^1 + 10x16^2 = 2 + 176 + 2560 = 2738
+
+3. 126 (decimal) to binary:
+   126/2=63 r0, 63/2=31 r1, 31/2=15 r1, 15/2=7 r1
+   7/2=3 r1, 3/2=1 r1, 1/2=0 r1
+   Remainders upward: 1111110
+
+4. 2738 (decimal) to hexadecimal:
+   2738/16=171 r2, 171/16=10 r11(B), 10/16=0 r10(A)
+   Remainders upward: AB2
+
+5. 101010110010 (binary) to hexadecimal:
+   Group in fours from right: 1010 1011 0010
+   1010=A, 1011=B, 0010=2 => AB2
+
+--- Shell Validation ---
+
+echo $((2#101010))            => 42
+echo $((16#AB2))              => 2738
+echo "obase=2;126" | bc       => 1111110
+printf "%X\n" 2738            => AB2
+python3 hex(int(...))        => 0xab2
+
+--- Evidence Table ---
+
+Evidence Value  | Given Base  | Manual Answer | Command Used              | Verified
+101010          | Binary      | 42            | echo $((2#101010))        | Yes
+AB2             | Hexadecimal | 2738          | echo $((16#AB2))          | Yes
+126             | Decimal     | 1111110       | bc: obase=2;126          | Yes
+2738            | Decimal     | AB2           | printf '%X' 2738          | Yes
+101010110010    | Binary      | AB2           | python3 hex(int(...))    | Yes

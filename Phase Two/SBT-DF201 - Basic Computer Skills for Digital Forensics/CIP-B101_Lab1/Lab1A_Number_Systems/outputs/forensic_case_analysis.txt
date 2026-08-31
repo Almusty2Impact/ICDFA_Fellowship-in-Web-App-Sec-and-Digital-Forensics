@@ -1,0 +1,44 @@
+=== TASK F: Mini Forensic Interpretation Case ===
+
+--- Decoded Evidence Items ---
+
+EVID-001
+  Raw Value : 48656c6c6f204943444641
+  Type      : Hex-encoded ASCII text
+  Decoded   : "Hello ICDFA"
+  Method    : bytes.fromhex() - each hex pair maps to one ASCII character
+  Use       : Text/content interpretation
+
+EVID-002
+  Raw Value : 01001000 01101001
+  Type      : Binary-encoded ASCII
+  Decoded   : "Hi"
+  Method    : chr(int(b, 2)) - 01001000=72(H), 01101001=105(i)
+  Use       : Text/content interpretation
+
+EVID-003
+  Raw Value : 1675008832
+  Type      : Unix epoch timestamp (seconds since 1970-01-01 UTC)
+  Decoded   : 2023-01-29 16:13:52 UTC
+  Method    : datetime.fromtimestamp(1675008832, tz=timezone.utc)
+  Use       : Timeline analysis
+
+EVID-004
+  Raw Value : 725846400 (Mac Absolute Time)
+  Type      : Mac Cocoa Core Data timestamp (seconds since 2001-01-01 UTC)
+  Decoded   : 2024-01-02 00:00:00 UTC
+  Method    : 725846400 + 978307200 = 1704153600 (Unix) -> datetime
+  Use       : Timeline analysis
+
+EVID-005
+  Raw Value : 78563412
+  Type      : Raw 4-byte value (endianness ambiguous)
+  Little-Endian : 305,419,896 (0x12345678)
+  Big-Endian    : 2,018,915,346 (0x78563412)
+  Method    : int.from_bytes(raw, 'little') vs 'big'
+  Use       : Context-dependent (need to know source architecture)
+
+--- Summary ---
+Timeline items: EVID-003 (Unix timestamp), EVID-004 (Mac timestamp)
+Text/content items: EVID-001 (hex text), EVID-002 (binary text)
+Architecture-dependent: EVID-005 (requires endianness context)
