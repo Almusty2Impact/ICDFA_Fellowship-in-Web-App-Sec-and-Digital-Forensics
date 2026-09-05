@@ -1,6 +1,9 @@
 # Digital Forensics Lab: Data Carving and File Recovery
+
 **Course:** Lab 3 — Data Carving with XXD, Binwalk and Scalpel
+
 **Student ID:** fwsd2511343@students.icdfa.edu.ng
+
 **Date:** 5/9/2026
 
 ## Overview
@@ -29,4 +32,4 @@ This lab demonstrates data carving techniques to recover files from forensic ima
 - Raw carving was successfully used to recover 17 JPEG files.
 
 ## Report
-See `reports/Forensic_Lab_Report.pdf` for full methodology and evidence.
+See `reports/fwsd2511343_DF_DataCarving_20260905.pdf` for full methodology and evidence.
