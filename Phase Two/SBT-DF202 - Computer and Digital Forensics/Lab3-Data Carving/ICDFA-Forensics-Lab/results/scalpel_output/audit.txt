@@ -1,0 +1,33 @@
+
+Scalpel version 1.60 audit file
+Started at Fri Sep  4 18:58:22 2026
+Command line:
+scalpel -c scalpel.conf -o results/scalpel_output evidence/120M/usb_fat_carving.001 
+
+Output directory: /home/kali/ICDFA-Forensics-Lab/results/scalpel_output
+Configuration file: scalpel.conf
+
+Opening target "/home/kali/ICDFA-Forensics-Lab/evidence/120M/usb_fat_carving.001"
+
+The following files were carved:
+File		  Start			Chop		Length		Extracted From
+00000010.jpg      3796992		NO          3148500		usb_fat_carving.001
+00000009.jpg       425822		NO          4875802		usb_fat_carving.001
+00000008.jpg       335872		NO          4965752		usb_fat_carving.001
+00000002.jpg      6938624		NO             6868		usb_fat_carving.001
+00000001.jpg      5285888		NO          1659604		usb_fat_carving.001
+00000000.jpg      3897344		NO          3048148		usb_fat_carving.001
+00000004.jpg     15427584		NO          4223822		usb_fat_carving.001
+00000003.jpg     12881920		NO          4256310		usb_fat_carving.001
+00000006.jpg     19638272		NO          5229050		usb_fat_carving.001
+00000005.jpg     17121280		NO          4248530		usb_fat_carving.001
+00000007.jpg     21358592		NO          5183267		usb_fat_carving.001
+00000016.jpg     36671488		NO          2889262		usb_fat_carving.001
+00000015.jpg     36571136		NO          2989614		usb_fat_carving.001
+00000014.jpg     36393610		NO          3167140		usb_fat_carving.001
+00000013.jpg     36352448		NO          3208302		usb_fat_carving.001
+00000012.jpg     35590996		NO          3969754		usb_fat_carving.001
+00000011.jpg     35350242		NO          4210508		usb_fat_carving.001
+
+
+Completed at Fri Sep  4 18:58:23 2026
