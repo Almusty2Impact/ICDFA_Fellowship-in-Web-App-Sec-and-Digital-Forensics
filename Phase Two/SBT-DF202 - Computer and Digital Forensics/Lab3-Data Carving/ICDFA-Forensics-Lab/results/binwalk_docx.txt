@@ -1,0 +1,17 @@
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             Zip archive data, at least v2.0 to extract, compressed size: 358, uncompressed size: 1364, name: [Content_Types].xml
+927           0x39F           Zip archive data, at least v2.0 to extract, compressed size: 239, uncompressed size: 590, name: _rels/.rels
+1727          0x6BF           Zip archive data, at least v2.0 to extract, compressed size: 328, uncompressed size: 1149, name: word/_rels/document.xml.rels
+2377          0x949           Zip archive data, at least v2.0 to extract, compressed size: 1458, uncompressed size: 4120, name: word/document.xml
+3882          0xF2A           Zip archive data, at least v1.0 to extract, compressed size: 85046, uncompressed size: 85046, name: word/media/image1.jpeg
+88980         0x15B94         Zip archive data, at least v2.0 to extract, compressed size: 1571, uncompressed size: 6795, name: word/theme/theme1.xml
+90602         0x161EA         Zip archive data, at least v2.0 to extract, compressed size: 1092, uncompressed size: 2785, name: word/settings.xml
+91741         0x1665D         Zip archive data, at least v2.0 to extract, compressed size: 265, uncompressed size: 497, name: word/webSettings.xml
+92056         0x16798         Zip archive data, at least v2.0 to extract, compressed size: 369, uncompressed size: 749, name: docProps/core.xml
+92736         0x16A40         Zip archive data, at least v2.0 to extract, compressed size: 2927, uncompressed size: 28961, name: word/styles.xml
+95708         0x175DC         Zip archive data, at least v2.0 to extract, compressed size: 453, uncompressed size: 1261, name: word/fontTable.xml
+96209         0x177D1         Zip archive data, at least v2.0 to extract, compressed size: 388, uncompressed size: 731, name: docProps/app.xml
+97680         0x17D90         End of Zip archive, footer length: 22
+
