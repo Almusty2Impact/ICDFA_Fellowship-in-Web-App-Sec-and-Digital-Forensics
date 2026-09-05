@@ -1,7 +1,7 @@
 # ICDFA Steganography Lab – Hidden Data Detection
 
 **Student:** Almustapha Yusuf  
-**Course:** Digital Forensics  
+**Course:** SBT-DF202 — Computer and Digital Forensics  
 **Date:** 05/09/2026  
 
 ---
@@ -17,28 +17,51 @@ The lab highlights the forensic importance of detecting hidden data, especially 
 
 ## 📂 Repository Structure
 ICDFA-Steganography-Lab/
+
 ├── evidence/
+
 │ └── tower_original_image_for_lab.bmp
+
 ├── results/
+
 │ ├── hash_original_carrier.txt
+
 │ ├── hash_secret.txt
+
 │ ├── hash_stego_image.txt
+
 │ ├── hash_compare_extraction.txt
+
 │ ├── hash_independent_note.txt
+
 │ ├── hash_independent_stego.txt
+
 │ ├── secret.txt
+
 │ ├── tower_stego_lab4.bmp
+
 │ ├── tower_stego_lab4.bmp.out
+
 │ ├── independent_stego.bmp
+
 │ ├── independent_stego.bmp.out
+
 │ ├── independent_wordlist.txt
+
 │ ├── lab4_wordlist.txt
+
 │ ├── extracted/
+
 │ └── extracted_independent/
+
 ├── screenshots/
+
 │ └── (all terminal screenshots)
+
 ├── reports/
+
 │ └── Steganography_Lab_Report.pdf
+
 └── README.md
 ---
 
@@ -70,41 +93,13 @@ ICDFA-Steganography-Lab/
 
 ---
 
-## 📜 How to Reproduce
+## 📄 Full Report
 
-1. **Prepare carrier**  
-   ```bash
-   sha256sum evidence/tower_original_image_for_lab.bmp
-Create secret file
-
-bash
-echo "Your Name" > secret.txt
-Embed with Steghide
-
-bash
-steghide embed -ef secret.txt -cf evidence/tower_original_image_for_lab.bmp -sf tower_stego_lab4.bmp -p 1234
-Extract with Steghide
-
-bash
-mkdir -p extracted
-steghide extract -sf tower_stego_lab4.bmp -xf extracted/extracted_secret.txt -p 1234
-Verify
-
-bash
-diff secret.txt extracted/extracted_secret.txt
-sha256sum secret.txt extracted/extracted_secret.txt
-Password recovery with StegSeek
-
-bash
-echo "1234" > lab4_wordlist.txt
-stegseek tower_stego_lab4.bmp lab4_wordlist.txt
-📄 Full Report
-See Steganography_Lab_Report.pdf for detailed methodology, screenshots, and analysis.
+See **reports/fwsd2511343_DigitalForensics_SteganographyLab.pdf** for detailed methodology, screenshots, and analysis.
 
 Author: Almustapha Yusuf
-License: Educational use only – ICDFA Lab
 
-text
+License: Educational use only – ICDFA Lab
 
 ---
 
