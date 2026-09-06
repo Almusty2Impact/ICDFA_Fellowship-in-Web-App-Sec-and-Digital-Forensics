@@ -1,0 +1,1 @@
+aa1e8aa60bf02d2f66e3ae27eef0c788e308607e99c9ee83fd4dea7d2988c7b6  virtual_usb.img
