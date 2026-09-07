@@ -1,0 +1,28 @@
+
+===================================================================
+Follow: tcp,ascii
+Filter: tcp.stream eq 0
+Node 0: 127.0.0.1:34664
+Node 1: 127.0.0.1:80
+83
+GET /basic.html HTTP/1.1
+Host: 127.0.0.1
+User-Agent: curl/8.21.0
+Accept: */*
+
+
+	381
+HTTP/1.1 200 OK
+Date: Mon, 07 Sep 2026 20:33:36 GMT
+Server: Apache/2.4.68 (Debian)
+Last-Modified: Mon, 07 Sep 2026 20:19:35 GMT
+ETag: "82-65aea5637199b"
+Accept-Ranges: bytes
+Content-Length: 130
+Vary: Accept-Encoding
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html><body><h1>SBT-DF203 HTTP Evidence</h1><p>Name: Almustapha Yusuf</p><p>Reg No: fwsd2511343</p></body></html>
+
+===================================================================
