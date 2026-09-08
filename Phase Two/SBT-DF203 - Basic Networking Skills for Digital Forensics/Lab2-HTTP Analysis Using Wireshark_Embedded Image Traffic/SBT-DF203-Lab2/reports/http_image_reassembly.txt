@@ -1,0 +1,207 @@
+Frame 9: Packet, 13586 bytes on wire (108688 bits), 13586 bytes captured (108688 bits) on interface lo, id 0
+    Section number: 1
+    Interface id: 0 (lo)
+        Interface name: lo
+        Interface description: Loopback
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Sep  8, 2026 01:32:10.837683862 EDT
+    UTC Arrival Time: Sep  8, 2026 05:32:10.837683862 UTC
+    Epoch Arrival Time: 1788845530.837683862
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 383.502 microseconds]
+    [Time since reference or first frame: 240.333435 milliseconds]
+    Frame Number: 9
+    Frame Length: 13586 bytes (108688 bits)
+    Capture Length: 13586 bytes (108688 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:http:image-jfif]
+    Character encoding: ASCII (0)
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 0]
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 13572
+    Identification: 0xb5f1 (46577)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 64
+    Protocol: TCP (6)
+    Header Checksum: 0x5200 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 127.0.0.1
+    Destination Address: 127.0.0.1
+    [Stream index: 0]
+Transmission Control Protocol, Src Port: 80, Dst Port: 48762, Seq: 492, Ack: 927, Len: 13520
+    Source Port: 80
+    Destination Port: 48762
+    [Stream index: 0]
+    [Stream Packet Number: 9]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 13520]
+    Sequence Number: 492    (relative sequence number)
+    Sequence Number (raw): 729751214
+    [Next Sequence Number: 14012    (relative sequence number)]
+    Acknowledgment Number: 927    (relative ack number)
+    Acknowledgment number (raw): 595907534
+    1000 .... = Header Length: 32 bytes (8)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 512
+    [Calculated window size: 65536]
+    [Window size scaling factor: 128]
+    Checksum: 0x32f9 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - No-Operation (NOP)
+            Kind: No-Operation (1)
+        TCP Option - Timestamps: TSval 2824730366, TSecr 2824730365
+            Kind: Time Stamp Option (8)
+            Length: 10
+            Timestamp value: 2824730366
+            Timestamp echo reply: 2824730365
+    [Timestamps]
+        [Time since first frame in this TCP stream: 240.333435 milliseconds]
+        [Time since previous frame in this TCP stream: 383.502 microseconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 8]
+        [The RTT to ACK the segment was: 383.502 microseconds]
+        [iRTT: 59.484 microseconds]
+        [Bytes in flight: 13520]
+        [Bytes sent since last PSH flag: 13520]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (13520 bytes)
+Hypertext Transfer Protocol
+    HTTP/1.1 200 OK\r\n
+        Response Version: HTTP/1.1
+        Status Code: 200
+        [Status Code Description: OK]
+        Response Phrase: OK
+    Date: Tue, 08 Sep 2026 05:32:10 GMT\r\n
+    Server: Apache/2.4.68 (Debian)\r\n
+    Last-Modified: Tue, 08 Sep 2026 05:18:00 GMT\r\n
+    ETag: "33b0-65af1dbbce5d9"\r\n
+    Accept-Ranges: bytes\r\n
+    Content-Length: 13232\r\n
+        [Content length: 13232]
+    Keep-Alive: timeout=5, max=99\r\n
+    Connection: Keep-Alive\r\n
+    Content-Type: image/jpeg\r\n
+    \r\n
+    [Request in frame: 8]
+    [Time since request: 383.502 microseconds]
+    [Request URI: /lab_photo.jpg]
+    [Full request URI: http://127.0.0.1/lab_photo.jpg]
+    File Data: 13232 bytes
+JPEG File Interchange Format
+    Marker: Start of Image (0xffd8)
+    Marker segment: Reserved for application segments - 0 (0xFFE0)
+        Marker: Reserved for application segments - 0 (0xffe0)
+        Length: 16
+        Identifier: JFIF
+        Version: 1.1
+            Major Version: 1
+            Minor Version: 1
+        Units: No units; Xdensity and Ydensity specify the pixel aspect ratio (0)
+        Xdensity: 1
+        Ydensity: 1
+        Xthumbnail: 0
+        Ythumbnail: 0
+    Marker segment: Define quantization table(s) (0xFFDB)
+        Marker: Define quantization table(s) (0xffdb)
+        Length: 67
+        Remaining segment data: 65 bytes
+    Marker segment: Define quantization table(s) (0xFFDB)
+        Marker: Define quantization table(s) (0xffdb)
+        Length: 67
+        Remaining segment data: 65 bytes
+    Start of Frame header: Start of Frame (non-differential, Huffman coding) - Baseline DCT (0xFFC0)
+        Marker: Start of Frame (non-differential, Huffman coding) - Baseline DCT (0xffc0)
+        Length: 17
+        Sample Precision (bits): 8
+        Lines: 300
+        Samples per line: 400
+        Number of image components in frame: 3
+        Component identifier: 1
+        0001 .... = Horizontal sampling factor: 1
+        .... 0001 = Vertical sampling factor: 1
+        Quantization table destination selector: 0
+        Component identifier: 2
+        0001 .... = Horizontal sampling factor: 1
+        .... 0001 = Vertical sampling factor: 1
+        Quantization table destination selector: 1
+        Component identifier: 3
+        0001 .... = Horizontal sampling factor: 1
+        .... 0001 = Vertical sampling factor: 1
+        Quantization table destination selector: 1
+    Marker segment: Define Huffman table(s) (0xFFC4)
+        Marker: Define Huffman table(s) (0xffc4)
+        Length: 28
+        Remaining segment data: 26 bytes
+    Marker segment: Define Huffman table(s) (0xFFC4)
+        Marker: Define Huffman table(s) (0xffc4)
+        Length: 56
+        Remaining segment data: 54 bytes
+    Marker segment: Define Huffman table(s) (0xFFC4)
+        Marker: Define Huffman table(s) (0xffc4)
+        Length: 27
+        Remaining segment data: 25 bytes
+    Marker segment: Define Huffman table(s) (0xFFC4)
+        Marker: Define Huffman table(s) (0xffc4)
+        Length: 53
+        Remaining segment data: 51 bytes
+    Start of Segment header: Start of Scan (0xFFDA)
+        Marker: Start of Scan (0xffda)
+        Length: 12
+        Number of image components in scan: 3
+        Scan component selector: 1
+        0000 .... = DC entropy coding table destination selector: 0
+        .... 0000 = AC entropy coding table destination selector: 0
+        Scan component selector: 2
+        0001 .... = DC entropy coding table destination selector: 1
+        .... 0001 = AC entropy coding table destination selector: 1
+        Scan component selector: 3
+        0001 .... = DC entropy coding table destination selector: 1
+        .... 0001 = AC entropy coding table destination selector: 1
+        Start of spectral or predictor selection: 0
+        End of spectral selection: 63
+        0000 .... = Successive approximation bit position high: 0
+        .... 0000 = Successive approximation bit position low or point transform: 0
+    Entropy-coded segment (dissection is not yet implemented) […]: fcf8a6e7ea7e6f86929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b8cc929b
+    Marker: End of Image (0xffd9)
+
