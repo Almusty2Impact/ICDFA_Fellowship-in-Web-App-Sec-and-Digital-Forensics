@@ -1,0 +1,14 @@
+=== FORENSIC FINDINGS ===
+Capture Start/End (Baseline):
+2026-09-11T07:04:05.246112689-0400
+2026-09-11T07:04:05.324382408-0400
+
+Capture Start/End (Simulation):
+2026-09-11T07:23:51.116884816-0400
+2026-09-11T07:23:54.122886849-0400
+
+Source IP/Port (Simulation): 127.0.0.1 (ports 1553-1556)
+Destination IP/Port (Simulation): 127.0.0.1:80
+Total SYN packets: 4
+Total SYN-ACK responses: 4
+Final ACK packets: 0

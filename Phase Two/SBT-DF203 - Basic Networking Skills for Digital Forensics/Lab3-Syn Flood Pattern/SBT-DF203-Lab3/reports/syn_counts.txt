@@ -1,0 +1,9 @@
+Total SYN packets:
+4
+Unique source ports:
+1553
+1554
+1555
+1556
+Unique destination ports:
+80
