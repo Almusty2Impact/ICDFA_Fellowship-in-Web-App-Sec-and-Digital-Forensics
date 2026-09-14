@@ -1,0 +1,3 @@
+=== Offline Base64 Decode Results ===
+Username: gurpartap@patriots.in
+Password: p********3  (masked for reporting)
