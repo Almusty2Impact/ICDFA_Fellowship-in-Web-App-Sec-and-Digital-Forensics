@@ -1,0 +1,55 @@
+=== SMTP LAB 4 - FINAL FORENSIC FINDINGS ===
+
+Session Start: 2009-10-05 02:06:07.492060
+Session End:   2009-10-05 02:06:16.690444
+Duration:      ~9.19 seconds
+
+Client:  10.10.1.4:1470  (MAC: 00:1f:33:d9:81:60)
+Server:  74.53.140.153:25 (MAC: 00:e0:1c:3c:17:c2)
+Server Banner: xc90.websitewelcome.com ESMTP Exim 4.69
+
+SMTP Commands Observed:
+- 220 Service ready
+- EHLO GP
+- 250 Server capabilities (AUTH PLAIN LOGIN, STARTTLS)
+- AUTH LOGIN
+- 334 Username challenge / 334 Password challenge
+- 235 Authentication succeeded
+- MAIL FROM: <gurpartap@patriots.in>
+- RCPT TO: <raj_deol2002in@yahoo.co.in>
+- DATA
+- 354 Enter message
+- 250 OK id=1Mugho-0003Dg-Un
+- QUIT
+- 221 Closing connection
+
+Authentication:
+- Method: AUTH LOGIN (Base64 encoded)
+- Username (decoded): gurpartap@patriots.in
+- Password: [MASKED - decoded offline, redacted per policy]
+
+Message Headers:
+- From: "Gurpartap Singh" <gurpartap@patriots.in>
+- To: <raj_deol2002in@yahoo.co.in>
+- Subject: SMTP
+- Date: Mon, 5 Oct 2009 11:36:07 +0530
+- Message-ID: <000301ca4581$ef9e57f0$cebd07d0$@in>
+- X-Mailer: Microsoft Office Outlook 12.0
+- MIME-Version: 1.0
+- Content-Type: multipart/mixed
+
+Message Body: multipart/mixed
+- text/plain: "Hello / I send u smtp pcap file / Find the attachment / GPS"
+- text/html: Microsoft Word 12 styled version
+- Attachment: NEWS.txt (Dev-C++ version history)
+
+Encryption Assessment:
+- Server advertised STARTTLS (250-STARTTLS)
+- Client did NOT issue STARTTLS command
+- No TLS handshake observed
+- Entire session (credentials + message) transmitted in PLAINTEXT
+
+Key Limitations:
+- Base64 is reversible encoding, NOT encryption
+- Credentials were exposed in plaintext due to no STARTTLS
+- Capture includes ICMP fragmentation messages unrelated to SMTP

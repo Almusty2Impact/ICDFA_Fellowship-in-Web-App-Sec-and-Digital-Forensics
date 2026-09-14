@@ -1,0 +1,8 @@
+=== STARTTLS Check ===
+Server advertised STARTTLS:
+9	S: 250-xc90.websitewelcome.com Hello GP [122.162.143.157] | SIZE 52428800 | PIPELINING | AUTH PLAIN LOGIN | STARTTLS | HELP
+
+Client issued STARTTLS command:
+(If empty above, STARTTLS was NOT used)
+0
+TLS packets found (0 = no encryption)
