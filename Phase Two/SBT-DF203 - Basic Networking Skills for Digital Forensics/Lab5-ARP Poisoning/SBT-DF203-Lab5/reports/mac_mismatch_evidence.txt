@@ -1,0 +1,23 @@
+=== ARP POISONING DETECTION — Comprehensive Analysis ===
+
+--- PART 1: eth.src vs arp.src.hw_mac (Classic Spoofing) ---
+  Total classic mismatches: 0
+
+--- PART 2: Gratuitous ARP Requests (Gateway asking for itself) ---
+  GRATUITOUS Frame 1	136.160.215.1	00:1b:17:00:0a:30
+  GRATUITOUS Frame 7	136.160.215.1	00:1b:17:00:0a:30
+  Total gratuitous requests: 2
+
+--- PART 3: IP-to-MAC Claim Summary ---
+  1 136.160.215.194	00:50:56:86:02:65
+  1 136.160.215.15	00:50:56:86:cb:fc
+
+=== SUMMARY ===
+Classic spoofing mismatches: 0
+Gratuitous ARP requests: 2
+
+INTERPRETATION:
+This capture does NOT show classic eth.src/arp.src.hw_mac spoofing.
+The suspicious indicators are the gratuitous ARP requests from
+the gateway (136.160.215.1 asking for its own IP), which can signal
+an active poisoning attempt or gateway MAC re-assertion.
