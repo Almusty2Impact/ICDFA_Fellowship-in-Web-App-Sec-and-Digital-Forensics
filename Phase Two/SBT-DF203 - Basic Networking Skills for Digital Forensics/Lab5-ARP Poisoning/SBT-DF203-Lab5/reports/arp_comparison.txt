@@ -1,0 +1,11 @@
+=== CLEAN ARP TABLE (Baseline) ===
+192.168.199.2 dev eth0 lladdr 00:50:56:ff:50:a0 STALE 
+192.168.199.254 dev eth0 lladdr 00:50:56:f5:93:70 STALE 
+
+=== POISONED CAPTURE CLAIMS ===
+      1 136.160.215.194	00:50:56:86:02:65
+      1 136.160.215.15	00:50:56:86:cb:fc
+
+=== ANALYSIS ===
+Legitimate gateway: 136.160.215.1 at 00:1b:17:00:0a:30
+Poisoning indicator: eth.src != arp.src.hw_mac in frames 4 and 6
