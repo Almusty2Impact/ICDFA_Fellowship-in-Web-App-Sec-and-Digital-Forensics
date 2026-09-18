@@ -1,0 +1,13 @@
+=== ALLOWED vs BLOCKED COMPARISON ===
+
+Indicator                    | Allowed Capture      | Blocked Capture
+-----------------------------|----------------------|------------------
+Client SYN visible?          | YES                  | YES
+Server SYN-ACK visible?      | YES                  | NO
+Handshake completed?         | YES                  | NO
+HTTP GET visible?            | YES                  | NO
+HTTP response visible?       | YES                  | NO
+Retransmissions/timeouts?    | NO                   | YES
+iptables counter change?     | 0 packets (rule did  | 7 packets,
+                             | not exist yet)       | 420 bytes
+curl result?                 | HTTP 200 OK          | Connection timeout
