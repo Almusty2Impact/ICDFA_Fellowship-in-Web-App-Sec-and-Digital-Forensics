@@ -1,0 +1,7 @@
+=== DNS QUERY-RESPONSE CORRELATION ===
+
+TX ID    | Query Name    | Type | Client Port | Response Frame | RCODE  | Answers                    | TTL
+---------|---------------|------|-------------|----------------|--------|----------------------------|-----
+0x1865   | example.com   | A    | 55170       | 2              | NOERROR| 172.66.147.243, 104.20.23.154 | 5
+0xd754   | example.com   | AAAA | 47703       | 4              | NOERROR| 2606:4700:10::ac42:93f3, 2606:4700:10::6814:179a | 5
+0x895d   | google.com    | A    | 36831       | 6              | NOERROR| 142.251.142.14             | 5
