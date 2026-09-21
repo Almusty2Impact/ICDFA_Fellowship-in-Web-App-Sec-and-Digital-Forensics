@@ -1,0 +1,35 @@
+=== SERVER (Resolver) ===
+;; SERVER: 192.168.199.2#53(192.168.199.2) (UDP)
+
+=== STATUS/FLAGS ===
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45906
+
+=== QUERY TIME ===
+;; Query time: 39 msec
+
+=== ANSWERS (A) ===
+;; ANSWER SECTION:
+example.com.		5	IN	A	104.20.23.154
+example.com.		5	IN	A	172.66.147.243
+
+;; Query time: 39 msec
+;; SERVER: 192.168.199.2#53(192.168.199.2) (UDP)
+
+=== ANSWERS (MX) ===
+;; ANSWER SECTION:
+example.com.		5	IN	MX	0 .
+
+;; Query time: 2032 msec
+;; SERVER: 192.168.199.2#53(192.168.199.2) (UDP)
+;; WHEN: Mon Sep 21 17:36:51 EDT 2026
+
+=== ANSWERS (NS) ===
+;; ANSWER SECTION:
+example.com.		5	IN	NS	elliott.ns.cloudflare.com.
+example.com.		5	IN	NS	hera.ns.cloudflare.com.
+
+;; Query time: 2032 msec
+;; SERVER: 192.168.199.2#53(192.168.199.2) (UDP)
+;; WHEN: Mon Sep 21 17:37:03 EDT 2026
+;; MSG SIZE  rcvd: 95
+

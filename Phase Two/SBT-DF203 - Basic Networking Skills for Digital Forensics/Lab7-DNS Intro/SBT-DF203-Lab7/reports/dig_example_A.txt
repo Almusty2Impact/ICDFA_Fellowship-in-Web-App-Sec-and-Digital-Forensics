@@ -1,0 +1,21 @@
+
+; <<>> DiG 9.20.27-2-Debian <<>> example.com A
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 45906
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; MBZ: 0x0005, udp: 1232
+;; QUESTION SECTION:
+;example.com.			IN	A
+
+;; ANSWER SECTION:
+example.com.		5	IN	A	104.20.23.154
+example.com.		5	IN	A	172.66.147.243
+
+;; Query time: 39 msec
+;; SERVER: 192.168.199.2#53(192.168.199.2) (UDP)
+;; WHEN: Mon Sep 21 17:36:26 EDT 2026
+;; MSG SIZE  rcvd: 72
+
