@@ -1,0 +1,14 @@
+=== BASELINE vs SPOOFED COMPARISON ===
+
+Indicator                    | Baseline                  | Controlled Spoof
+-----------------------------|---------------------------|---------------------------
+DNS Query                    | portal.icdfa.test A       | portal.icdfa.test A
+DNS Responder IP             | 192.168.199.2             | 192.168.199.2 (spoofed)
+DNS Responder MAC (eth.src)  | Real gateway MAC          | 00:0c:29:f3:f7:44 (Kali)
+Transaction ID match         | YES (query=response)      | YES (intercepted)
+Answer IP                    | NXDOMAIN (no answer)      | 192.168.199.128 (Kali)
+TTL                          | N/A (NXDOMAIN)            | 300
+Response time                | ~144ms                    | ~5ms (local spoof)
+Competing answers            | N/A                       | None (spoof won)
+Gateway ARP mapping          | 00:50:56:ff:50:a0 (real)  | 00:0c:29:f3:f7:44 (Kali)
+Subsequent HTTP destination  | N/A                       | 192.168.199.128 (via curl)
