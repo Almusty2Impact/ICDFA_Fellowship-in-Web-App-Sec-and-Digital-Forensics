@@ -1,2 +1,0 @@
-Recovered/validated WEP40 key (historical training key from slide): A4:3D:F6:F3:74
-Note: This is the documented historical key from the SBT-DF203 slide deck for the CodeGate CTF dataset.
