@@ -1,0 +1,32 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+frame                                    frames:15477 bytes:12536845
+  eth                                    frames:15477 bytes:12536845
+    arp                                  frames:60 bytes:2610
+    ip                                   frames:15361 bytes:12525585
+      udp                                frames:159 bytes:31074
+        dhcp                             frames:7 bytes:2890
+        dns                              frames:81 bytes:10351
+        mdns                             frames:40 bytes:6556
+        ssdp                             frames:31 bytes:11277
+      igmp                               frames:7 bytes:364
+      tcp                                frames:15195 bytes:12494147
+        tls                              frames:139 bytes:83267
+          tls                            frames:14 bytes:12413
+        http                             frames:278 bytes:183421
+          data-text-lines                frames:29 bytes:22925
+          image-gif                      frames:7 bytes:3461
+          json                           frames:7 bytes:6424
+            data-text-lines              frames:1 bytes:813
+          media                          frames:28 bytes:21854
+          png                            frames:29 bytes:21950
+          image-jfif                     frames:1 bytes:435
+          xml                            frames:1 bytes:313
+    ipv6                                 frames:56 bytes:8650
+      icmpv6                             frames:20 bytes:1628
+      udp                                frames:36 bytes:7022
+        mdns                             frames:36 bytes:7022
+===================================================================

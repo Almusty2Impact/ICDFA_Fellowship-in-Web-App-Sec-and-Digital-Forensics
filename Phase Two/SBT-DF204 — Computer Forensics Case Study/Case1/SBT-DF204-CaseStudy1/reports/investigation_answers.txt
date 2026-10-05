@@ -1,0 +1,84 @@
+=== SBT-DF204 CASE STUDY 1 - INVESTIGATION ANSWERS ===
+
+Q1: What file did you acquire, and how did you preserve its integrity?
+---------------------------------------------------------------
+Acquired: nitroba.pcap from digitalcorpora.org (NITROBA University Harassment Scenario)
+File size: 54 MB (94,410 packets)
+SHA-256: 2b77a9eaefc1d6af163d1ba793c96dbccacb04e6befdf1a0b01f8c67553ec2fb
+Preservation: Created working copy (nitroba_working.pcap); hashes matched exactly.
+Method: cp --preserve=timestamps; sha256sum verification
+
+Q2: Which client system contacted the web service?
+---------------------------------------------------------------
+Client IP: 192.168.15.4
+Client Port: 36044
+Service IP: 69.25.94.22
+Service Host: www.willselfdestruct.com
+Service Port: 80 (HTTP)
+Supporting Filter: http.request.method == "POST" && http.host contains "willself"
+Supporting Frame: 83601
+
+Q3: What evidence links the client to the harassment message?
+---------------------------------------------------------------
+The HTTP POST to /secure/submit (frame 83601) contains:
+- Form field "to": lilytuckrige@yahoo.com (victim's email)
+- Form field "subject": you can't find us
+- Form field "message": and you can't hide from us. Stop teaching. Start running.
+This content directly matches the reported harassment against Lily Tuckrige.
+Supporting Filter: frame.number == 83601
+Supporting Stream: TCP stream 1707
+
+Q4: Which device made the relevant request?
+---------------------------------------------------------------
+Client MAC Address: 00:17:f2:e2:c0:ce
+This is the Ethernet source MAC for all traffic from 192.168.15.4.
+Supporting Filter: ip.src == 192.168.15.4 && eth.src
+Note: This MAC was consistent across all frames from this IP.
+LIMITATION: A shared IP alone cannot prove identity; we needed the MAC plus session cookies.
+
+Q5: Who is associated with the device?
+---------------------------------------------------------------
+Gmail session cookies from the same device (192.168.15.4) immediately before and after the POST:
+- OL_SESSION=jcoachj@gmail.com-cal
+- gmailchat=jcoachj@gmail.com/475090
+The Gmail account jcoachj@gmail.com was active from 02:00:44 to 02:04:55 on 2008-07-22.
+This maps to the identity "Johnny Coach" (jcoachj = J. Coach).
+
+Q6: Is that person on the Chem 109 roster?
+---------------------------------------------------------------
+YES. The Chemistry 109 roster (evidence/roster.txt) contains:
+"Johnny Coach"
+The Gmail username jcoachj corresponds to Johnny Coach.
+The Facebook cookie beth@bethr.org does NOT match any roster entry (likely a different user on the shared network).
+
+Q7: When did the activity occur?
+---------------------------------------------------------------
+All times displayed in Wireshark are EDT (UTC-04:00).
+- Gmail session start: 2008-07-22 02:00:44 EDT
+- Prior attempt (sendanonymousemail.net): 02:02:57 EDT
+- Harassment POST: 2008-07-22 02:04:24 EDT (frame 83601)
+- Server response: 02:04:24 EDT (302 redirect)
+- Gmail session continues: 02:04:55 EDT
+
+Q8: What conclusion can you defend?
+---------------------------------------------------------------
+CONCLUSION (Confidence: HIGH):
+The device at 192.168.15.4 (MAC 00:17:f2:e2:c0:ce) submitted the harassment message 
+to www.willselfdestruct.com at 2008-07-22 02:04:24 EDT. The same device was 
+concurrently logged into Gmail as jcoachj@gmail.com, which corresponds to 
+Johnny Coach, a student on the Chemistry 109 roster.
+
+LIMITATIONS:
+1. Shared open wireless network: Multiple users share 192.168.15.4 (NAT).
+2. The MAC address alone cannot prove identity; session cookies provide the link.
+3. The Facebook cookie (beth@bethr.org) on the same network shows another user was active.
+4. No direct forensic examination of the physical device was possible.
+5. The User-Agent (IE 6.0 on Windows XP) does not match the Apple MAC prefix (00:17:f2) — 
+   possible MAC spoofing or virtualization, though the MAC was consistent.
+
+ALTERNATIVE EXPLANATIONS:
+- Johnny Coach may have loaned the device to someone else.
+- Another user may have accessed the Gmail session on the same device.
+- The MAC could have been spoofed.
+However, none of these alternatives are supported by the captured evidence; the 
+simplest explanation (Johnny Coach sent the message) is the most defensible.
