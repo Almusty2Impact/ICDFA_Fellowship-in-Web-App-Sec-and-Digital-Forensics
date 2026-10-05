@@ -1,0 +1,10 @@
+=== EVIDENCE LOG ===
+
+E01 | Frame 83601 | HTTP POST to willselfdestruct.com/secure/submit containing harassment message | Proves message content and origin | Appendix A
+E02 | TCP Stream 1707 | Full TCP conversation between 192.168.15.4:36044 and 69.25.94.22:80 | Shows request/response, User-Agent, Referer | Appendix B
+E03 | eth.src = 00:17:f2:e2:c0:ce | MAC address for device 192.168.15.4 | Links all activity from this IP to one device | Appendix C
+E04 | Cookie: OL_SESSION=jcoachj@gmail.com-cal | Gmail session cookie from same device, 02:00:44 - 02:04:55 | Links device to identity jcoachj@gmail.com | Appendix D
+E05 | Cookie: gmailchat=jcoachj@gmail.com/475090 | Gmail Chat session from same device | Corroborates Gmail session identity | Appendix D
+E06 | Roster match: "Johnny Coach" | Chemistry 109 roster entry | Links jcoachj to a known student | Appendix E
+E07 | SHA-256 of capture | 2b77a9eaefc1d6af163d1ba793c96dbccacb04e6befdf1a0b01f8c67553ec2fb | Evidence integrity | Appendix F
+E08 | Cookie: beth@bethr.org (Facebook) | Facebook session from same network | Indicates another user on shared network (red herring) | Appendix G

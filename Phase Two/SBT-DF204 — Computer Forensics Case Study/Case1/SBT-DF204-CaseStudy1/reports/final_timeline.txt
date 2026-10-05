@@ -1,0 +1,32 @@
+=== NITROBA HARASSMENT CASE - FORENSIC TIMELINE ===
+
+Date: 2008-07-22 (Eastern Daylight Time, UTC-04:00)
+
+02:00:44 - Gmail session begins for jcoachj@gmail.com on device 192.168.15.4
+           Cookie: OL_SESSION=jcoachj@gmail.com-cal
+           Cookie: gmailchat=jcoachj@gmail.com/475090
+
+02:01:26 - Device 192.168.15.4 visits sendanonymousemail.net (prior attempt)
+           Frame: 80614
+
+02:02:57 - POST to www.sendanonymousemail.net/send.php (prior attempt)
+
+02:03:43 - Device visits www.willselfdestruct.com
+           GET /secure/submit
+
+02:04:24 - HARASSMENT POST to www.willselfdestruct.com/secure/submit
+           Frame: 83601
+           Client: 192.168.15.4:36044
+           Server: 69.25.94.22:80
+           MAC: 00:17:f2:e2:c0:ce
+           POST body: to=lilytuckrige@yahoo.com
+                     subject=you can't find us
+                     message=and you can't hide from us.
+                             Stop teaching.
+                             Start running.
+
+02:04:24 - Server responds 302 Moved Temporarily
+           Location: http://www.willselfdestruct.com/secure/success
+           Set-Cookie: JSESSIONID=C16BFAC8710DA82AB3D8D80AE0F4F05A
+
+02:04:55 - Gmail session continues on same device
