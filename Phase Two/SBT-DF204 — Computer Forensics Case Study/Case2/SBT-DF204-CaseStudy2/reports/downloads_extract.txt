@@ -1,0 +1,3 @@
+id                  guid                                   current_path                                      target_path                       download_time     received_bytes  total_bytes
+--  ------------------------------------  -----------------------------------------------  -----------------------------------------------  -------------------  --------------  -----------
+ 1  104c5d2b-4cba-40f3-9e11-02b782e54bfa  C:\Users\FSCS_User\Desktop\proof_of_payment.png  C:\Users\FSCS_User\Desktop\proof_of_payment.png  2022-04-19 10:56:58           33844        33844
