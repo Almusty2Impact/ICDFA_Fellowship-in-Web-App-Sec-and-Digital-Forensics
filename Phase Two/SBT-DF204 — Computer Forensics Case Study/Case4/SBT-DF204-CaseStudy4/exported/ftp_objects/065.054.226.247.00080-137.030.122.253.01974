@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/5.0
+Date: Mon, 26 Apr 2004 22:26:25 GMT
+PPServer: H: LAWPPLOGN3B054
+Connection: close
+Content-Type: text/html
+Expires: Mon, 26 Apr 2004 22:25:26 GMT
+Cache-Control: no-cache
+cachecontrol: no-store
+Pragma: no-cache
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Set-Cookie: MSPAuth= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.com;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPProf= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.com;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSec= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.com;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSec1= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.com;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSec= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.com;path=/ppsecure;HTTPOnly= ;version=1
+Set-Cookie: MSPDom= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.com;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSoftVis=@:@; domain=.passport.com;path=/;version=1
+Authentication-Info: Passport1.4 da-status=logout
+Authentication-Info: Passport1.4 da-status=logout
+Content-Length: 690
+
+<html><head><script language="javascript">var submitted = false;function DoSubmit(){if (!submitted){submitted = true;document.hiddenform.submit();}}function OnBack(){}</script></head><body><form name=hiddenform action="http://login.passport.net/uilogout.srf?_lang=EN&lc=1033&id=2&ru=http%3a%2f%2fwww%2emsn%2ecom&dontall=" method=POST target="_top"><input type=hidden name="vis" value="2"><BR><noscript><META HTTP-EQUIV="REFRESH" CONTENT="0; URL=http://memberservices.passport.net/MSRV_JSRequired.srf?lc=1033&_lang=EN&lc=1033&id=2&ru=http%3a%2f%2fwww%2emsn%2ecom&dontall="></noscript></form><script language="javascript">var timeoutID = setTimeout('DoSubmit()', 1000);</script></body></html>

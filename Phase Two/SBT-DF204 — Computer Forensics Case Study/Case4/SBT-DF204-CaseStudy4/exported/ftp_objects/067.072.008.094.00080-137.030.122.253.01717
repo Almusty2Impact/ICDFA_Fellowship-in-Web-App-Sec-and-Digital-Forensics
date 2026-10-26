@@ -1,0 +1,54 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=1209600
+Date: Mon, 26 Apr 2004 22:23:37 GMT
+Content-Length: 13895
+Content-Type: text/css
+ETag: "d15c6becbb0c41:873"
+Expires: Wed, 05 May 2004 20:27:23 GMT
+Last-Modified: Wed, 03 Mar 2004 01:07:39 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/5.0
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Connection: keep-alive
+
+.rcolc, .rcolb {background-image: url(http://hp.msn.com/c/home/bb/bb_r-col.gif); background-repeat: repeat-y; }
+.rcol {background-image: url(http://hp.msn.com/c/home/bb/rcol_top.gif); background-position: top left; background-color: transparent; background-repeat: no-repeat; padding-left: 16px; margin-left: -6px; }
+.bg .dt {background-image: url(http://hp.msn.com/c/home/bb/bg_rpt.gif); background-color: #963455; background-position: top; background-repeat: repeat-x; filter: none; }
+.bg .rs {background-color: #963455; }
+.bg .dtr {background-image: url(http://hp.msn.com/c/home/bb/bg_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.bg .dtl {background-image: url(http://hp.msn.com/c/home/bb/bg_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.bg .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F7F3F5, endColorstr=#E1D3D9); }
+.rd .dt {background-image: url(http://hp.msn.com/c/home/bb/rd_rpt.gif); background-color: #E8362B; background-position: top; background-repeat: repeat-x; filter: none; }
+.rd .rs {background-color: #E8362B; }
+.rd .dtr {background-image: url(http://hp.msn.com/c/home/bb/rd_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.rd .dtl {background-image: url(http://hp.msn.com/c/home/bb/rd_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.rd .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F6E4E3, endColorstr=#EBC4C1); }
+.drd .dt {background-image: url(http://hp.msn.com/c/home/bb/drd_rpt.gif); background-color: #9E4040; background-position: top; background-repeat: repeat-x; filter: none; }
+.drd .rs {background-color: #9E4040; }
+.drd .dtr {background-image: url(http://hp.msn.com/c/home/bb/drd_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.drd .dtl {background-image: url(http://hp.msn.com/c/home/bb/drd_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.drd .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#EAD4D4, endColorstr=#D0A1A1); }
+.mbr .dt {background-image: url(http://hp.msn.com/c/home/bb/mbr_rpt.gif); background-color: #CC6600; background-position: top; background-repeat: repeat-x; filter: none; }
+.mbr .rs {background-color: #CC6600; }
+.mbr .dtr {background-image: url(http://hp.msn.com/c/home/bb/mbr_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.mbr .dtl {background-image: url(http://hp.msn.com/c/home/bb/mbr_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.mbr .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5DFDF, endColorstr=#C6BABA); }
+.dbr .dt {background-image: url(http://hp.msn.com/c/home/bb/dbr_rpt.gif); background-color: #684648; background-position: top; background-repeat: repeat-x; filter: none; }
+.dbr .rs {background-color: #684648; }
+.dbr .dtr {background-image: url(http://hp.msn.com/c/home/bb/dbr_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.dbr .dtl {background-image: url(http://hp.msn.com/c/home/bb/dbr_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.dbr .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5DFDF, endColorstr=#C6BABA); }
+.yl .dt {background-image: url(http://hp.msn.com/c/home/bb/dyl_rpt.gif); background-color: #FFBA00; background-position: top; background-repeat: repeat-x; filter: none; }
+.yl .rs {background-color: #FFBA00; }
+.yl .dtr {background-image: url(http://hp.msn.com/c/home/bb/dyl_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.yl .dtl {background-image: url(http://hp.msn.com/c/home/bb/dyl_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.yl .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFEFC5, endColorstr=#FFDC81); }
+.dyl .dt {background-image: url(http://hp.msn.com/c/home/bb/dyl_rpt.gif); background-color: #D1A700; background-position: top; background-repeat: repeat-x; filter: none; }
+.dyl .rs {background-color: #D1A700; }
+.dyl .dtr {background-image: url(http://hp.msn.com/c/home/bb/dyl_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.dyl .dtl {background-image: url(http://hp.msn.com/c/home/bb/dyl_lt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.dyl .md {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5ECC8, endColorstr=#E9D586); }
+.or .dt {background-image: url(http://hp.msn.com/c/home/bb/or_rpt.gif); background-color: #F99500; background-position: top; background-repeat: repeat-x; filter: none; }
+.or .rs {background-color: #F99500; }
+.or .dtr {background-image: url(http://hp.msn.com/c/home/bb/or_rt.gif); background-position: top; background-repeat: no-repeat; background-color: transparent; filter: none; }
+.or .dtl {background-image: url(h

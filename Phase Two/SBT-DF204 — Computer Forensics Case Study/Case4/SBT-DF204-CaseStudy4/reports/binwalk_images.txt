@@ -1,0 +1,90 @@
+
+Scan Time:     2026-10-25 03:44:55
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0104057.jpg
+MD5 Checksum:  ee67d8bef72f9b63fa93dc9ea1bb833a
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+
+
+Scan Time:     2026-10-25 03:44:55
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0104249.jpg
+MD5 Checksum:  4d37a1033450b8cc96ffd1564829d321
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.02
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0105065.jpg
+MD5 Checksum:  6bd0e9bd4fb4a738f9ca4c351a853281
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0105873.jpg
+MD5 Checksum:  f1bbcd31cd33badc65ca3d1d781f57fa
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.02
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0106393.jpg
+MD5 Checksum:  ca03f2eed3db06a82a8a31b3a3defa24
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.00
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0106409.jpg
+MD5 Checksum:  ed870202082ea4fd8f5488533a561b35
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0335081.jpg
+MD5 Checksum:  f1bbcd31cd33badc65ca3d1d781f57fa
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.02
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0106865.gif
+MD5 Checksum:  76610b7bdb85e5f65e96df3f7e417a74
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 290 x 246
+
+
+Scan Time:     2026-10-25 03:44:56
+Target File:   /home/kali/SBT-DF204-CaseStudy4/exported/carved_files/f0106889.gif
+MD5 Checksum:  d03dc23d4ec39e4d16da3c46d2932d62
+Signatures:    436
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             GIF image data, version "89a", 150 x 87
+

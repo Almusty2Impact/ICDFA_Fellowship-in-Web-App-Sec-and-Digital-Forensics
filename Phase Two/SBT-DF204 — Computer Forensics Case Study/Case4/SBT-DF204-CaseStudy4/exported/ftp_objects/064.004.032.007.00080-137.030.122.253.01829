@@ -1,0 +1,20 @@
+HTTP/1.1 302 Redirected
+Server: Microsoft-IIS/5.0
+Date: Mon, 26 Apr 2004 22:24:19 GMT
+P3P:CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Connection: close
+Set-Cookie: HMSatchmo=0;  domain=.hotmail.msn.com; path=/
+Set-Cookie: MSPRPLY=; expires=Wed Dec 31 16:00:01 1969; domain=.msn.com; path=/cgi-bin/sbox
+Set-Cookie: MSPAuth=5RR7L1kMxDUSgrDUV16JuggXxlyZNKuvYAWWRJ0%21jimN71oRvB0sPBfwGnOe0zkAiRLkfrFvVJ6bzEf%211asQFMEA%24%24;  domain=.msn.com; path=/
+Set-Cookie: MSPProf=5QG2vsn9fFnq2Z8H20JT0Xw9f3lXXxzRZqMvKTvSuwMIAhaIt1sSyVVNuHlr2z%21HiiGwiHHFB0hRqOtk4JZSVlz3LGsDHDyognMS%2a8eel28hcqVywSlRabW0vFOUDQd3ZUriRgmiMOQTyYTYF4FquU6%21%2aPFY7o0kmMZbaehaAJGSkyUgDyn0vIboHDsIzEC5g1yj1HBPZncc4%24;  domain=.msn.com; path=/
+Set-Cookie: HMMsgr=; expires=Wed Dec 31 16:00:01 1969; domain=.hotmail.msn.com; path=/
+Set-Cookie: HMSC0899=; expires=Wed Dec 31 16:00:01 1969; domain=.msn.com; path=/
+Set-Cookie: HMSC0899=227bighonkingrhino%40hotmail%2ecomOZRFcqu2ecaWBi4Ws7NiPGKDkfOZoaMwrvLm9HrJg4jSI9Nhd2D4VdpvTNx835Ekxm1NDp%21zPjsOQt%2aEIaDIg7OvzZ8i%215YvoT6LJOOQ8Dyi2GiLFpLnw8g1irfOUAQGbjz0wz8NO0mNKmicRbz4Lifl%21XqwKzTCxGDCMiYDdXstcDsKhtM6i%21QjBQkqNH5zUdkLzLotm0lGCZGCh%2aqcmw9gkqfj73XOZhEyoqwG56fyKjhUk7SKeIV5ydL3dhgda%21Suvqw8GKPUJ3sApAflgzEr%21ELm%21CJN40wynrk4jmvABHxfH3YPXU8Gtoupk8pCJJ89ojsCeShLWA7sTviiM4lWIURjYZ1eZoZOhl6QTCYn%2aaNoL0DO83Rxm25GZHdQZwYxcmoi49JaT843YqTXRuuYiBmkcyUWkcVbsT4V8qdRsPCOCnFhkg%24%24;  domain=.hotmail.msn.com; path=/
+Set-Cookie: PIM=1%2clang%2cEN%2ctabstyle%2c4%2ccluster%2cwww%252ehotmail%252emsn%252ecom%2ctimestamp%2c1083018259%2csection%2cpersonal%2csubsection%2cInvalidSubSection;  domain=.msn.com; path=/
+Expires: Mon, 01 Jan 1999 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html
+Location: http://by1fd.bay1.hotmail.msn.com/cgi-bin/hmhome?curmbox=F000000001&a=ab578fdabe4963a212c2e6695bb25248&fti=yes
+HMServer: H: bay0-lc1-023.bay0.hotmail.com  V: WIN2K 09.08.01.0012 i  D: Mar 18 2004 21:10:28 S: 0
+

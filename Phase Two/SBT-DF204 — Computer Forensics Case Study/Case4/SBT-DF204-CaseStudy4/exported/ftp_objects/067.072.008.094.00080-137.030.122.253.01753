@@ -1,0 +1,57 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=1209600
+Date: Mon, 26 Apr 2004 22:23:42 GMT
+Content-Length: 6741
+Content-Type: text/css
+ETag: "332c8ee5bb0c41:88b"
+Expires: Wed, 05 May 2004 20:27:24 GMT
+Last-Modified: Wed, 03 Mar 2004 01:07:28 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/5.0
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Connection: keep-alive
+
+.slds img.nv { position:absolute; top:151px; left:0px; display:block; cursor: hand; }
+.slds img.prev { left: 10px; }
+.slds img.next { left: 277px; }
+.slds {	position:relative; top:0px; left:0px; width:309px; height:176px; background-image:url(http://hp.msn.com/c/home/bbip.jpg); background-repeat:no-repeat; overflow: hidden; }
+.sld { display:none; }
+.sld span.r img { position:absolute; top:3px; left:158px; }
+.sld span.f img { position:absolute; top:3px; left:8px; }
+.sld table { position:absolute; height:154px; top:3px; padding:1px 4px 1px 4px; }
+.sld table.r { width:149px; left:153px; }
+.sld table.l { width:150px; left:8px; }
+.sld table.c { width:293px; left:8px; }
+.sld td.h { padding-top:4px; }
+.sld ul { padding-top:3px; padding-bottom:1px; }
+.c h3 { text-align:center; }
+.sld .ql { position:absolute; width:100%; top:159px; font-size: 85%; font-family: Verdana, Arial, sans-serif; text-align: center; }
+.sld .ql a { font-size: 85%; font-family: Verdana, Arial, sans-serif; }
+.sld .hilite, .sld .hilite:hover, .sld .hilite:visited, .sld .hilite:visited:hover { color: #f00; }
+.sld .m { text-align:center; height:100%; }
+.sld .t { vertical-align:top; padding-top:8px; }
+.sld .b { vertical-align:bottom; padding-bottom:8px; }
+.sld a, .sld a:hover, .sld a:active, .sld td, .sld td a, .sld td a:hover, .sld td a:active { color: #000; background: transparent; }
+.sld .b000000 { color: #000000; background: transparent; }
+.sld li.b000000 { list-style-image: url(http://hp.msn.com/c/home/bullets/000000.gif); }
+.sld a.b000000, .sld a.b000000:hover, .sld a.b000000:active { color: #000000; background: transparent; }
+.sld .b0266A8 { color: #0266A8; background: transparent; }
+.sld li.b0266A8 { list-style-image: url(http://hp.msn.com/c/home/bullets/0266A8.gif); }
+.sld a.b0266A8, .sld a.b0266A8:hover, .sld a.b0266A8:active { color: #0266A8; background: transparent; }
+.sld .b08A808 { color: #08A808; background: transparent; }
+.sld li.b08A808 { list-style-image: url(http://hp.msn.com/c/home/bullets/08A808.gif); }
+.sld a.b08A808, .sld a.b08A808:hover, .sld a.b08A808:active { color: #08A808; background: transparent; }
+.sld .b273B81 { color: #273B81; background: transparent; }
+.sld li.b273B81 { list-style-image: url(http://hp.msn.com/c/home/bullets/273B81.gif); }
+.sld a.b273B81, .sld a.b273B81:hover, .sld a.b273B81:active { color: #273B81; background: transparent; }
+.sld .b2B804C { color: #2B804C; background: transparent; }
+.sld li.b2B804C { list-style-image: url(http://hp.msn.com/c/home/bullets/2B804C.gif); }
+.sld a.b2B804C, .sld a.b2B804C:hover, .sld a.b2B804C:active { color: #2B804C; background: transparent; }
+.sld .b5A5959 { color: #5A5959; background: transparent; }
+.sld li.b5A5959 { list-style-image: url(http://hp.msn.com/c/home/bullets/5A5959.gif); }
+.sld a.b5A5959, .sld a.b5A5959:hover, .sld a.b5A5959:active { color: #5A5959; background: transparent; }
+.sld .b635190 { color: #635190; background: transparent; }
+.sld li.b635190 { list-style-image: url(http://hp.msn.com/c/home/bullets/635190.gif); }
+.sld a.b635190, .sld a.b635190:hover, .sld a.b635190:active { color: #635190; background: transparent; }
+.sld .b777777 { color: #777777; background: transparent; }
+.sld li.b777777 { list-style-image: url(h

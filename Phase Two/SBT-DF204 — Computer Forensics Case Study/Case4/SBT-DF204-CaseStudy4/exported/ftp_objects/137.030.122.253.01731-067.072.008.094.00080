@@ -1,0 +1,12 @@
+GET /c/home/bb/sf.jpg HTTP/1.1
+Accept: */*
+-------: ----:--------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Fri, 14 Nov 2003 00:28:16 GMT
+If-None-Match: "dcd0963246aac31:873"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: hp.msn.com
+Connection: Keep-Alive
+Cookie: MC1=V=3&GUID=0e9761a61f3f4650b4842b72ab1d3d52; SITESERVER=ID=UID=0e9761a61f3f4650b4842b72ab1d3d52; mh=MSFT; theme=00; y=1; SPEED=B
+

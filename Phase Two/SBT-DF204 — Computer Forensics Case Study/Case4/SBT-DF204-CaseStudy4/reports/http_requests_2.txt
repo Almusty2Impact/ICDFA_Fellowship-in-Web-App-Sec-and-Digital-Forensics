@@ -1,0 +1,29 @@
+GET / HTTP/1.1
+Host: www.google.com
+GET /images/logo.gif HTTP/1.1
+Host: www.google.com
+GET /~gnome HTTP/1.1
+Host: www.cs.uno.edu
+GET /~gnome/ HTTP/1.1
+Host: www.cs.uno.edu
+GET /icons/blank.gif HTTP/1.1
+Host: www.cs.uno.edu
+GET /icons/image2.gif HTTP/1.1
+Host: www.cs.uno.edu
+GET /icons/back.gif HTTP/1.1
+Host: www.cs.uno.edu
+GET /~gnome/rhino4.jpg HTTP/1.1
+Host: www.cs.uno.edu
+GET /~gnome/rhino5.gif HTTP/1.1
+Host: www.cs.uno.edu
+GET / HTTP/1.1
+Host: www.google.com
+GET /~venkata HTTP/1.1
+Host: www.cs.uno.edu
+GET /~venkata/ HTTP/1.1
+Host: www.cs.uno.edu
+GET /~venkata/2025/index.html HTTP/1.1
+Host: www.cs.uno.edu
+<p> You can get the <a href="syllabus.pdf"> syllabus here. </a> 
+<p> You can get Bloodshed Dev C++ from <a href="http://www.bloodshed.net/devcpp.html"> here. </a></p>
+IntNodePtr getHead() in the list class that returns the head of the 

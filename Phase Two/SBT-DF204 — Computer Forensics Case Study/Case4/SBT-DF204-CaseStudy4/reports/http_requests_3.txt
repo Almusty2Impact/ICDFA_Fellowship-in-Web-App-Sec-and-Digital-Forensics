@@ -1,0 +1,77 @@
+GET / HTTP/1.1
+Host: www.google.com
+GET /search?hl=en&ie=UTF-8&oe=UTF-8&q=rhino.exe HTTP/1.1
+Host: www.google.com
+function ga(o,e){if (document.getElementById){a=o.id.substring(1); p = "";r = "";g = e.target;if (g) { t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;
+if (h) r = h.id;}} else{h = e.srcElement;f = h.parentNode;if (f) p = f.id;t = h.id;}if (t==a || p==a || r==a) return true;location.href=document.getElementById(a).href}}
+F-8&sa=N&tab=wn" onClick="return qs(this);">News</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id=t5a class=q href="http://froogle.google.com/froogle?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=wf" onClick="return qs(this);">Froogle</a><sup><a href="http://froogle.google.com/froogle?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=wf" style="text-decoration:none;" onclick="return qs(this);"><font color=red>New!</font></a></sup>&nbsp;&nbsp;&nbsp;&nbsp;</font><font size=-1><b><a href="/options/" class=q>more&nbsp;&raquo;</a></b></font></td></tr></table></td></tr><tr><td nowrap><form name=gs method=GET action=/search><input type=hidden name=hl value="en"><input type=hidden name=lr value=""><input type=hidden name=ie value="UTF-8"><input type=hidden name=oe value="UTF-8"><input type=text name=q size=41 maxlength=2048 value="rhino.exe"><font size=-1> <input type=submit name="btnG" value="Search"><span id=hf></span></font></td><td nowrap><font size=-2>&nbsp;&nbsp;<a href=/advanced_search?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Advanced Search</a><br>&nbsp;&nbsp;<a href=/preferences?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Preferences</a>&nbsp;&nbsp;&nbsp;&nbsp;</font></td></tr></table><table cellpadding=0 cellspacing=0 border=0><tr><td><font size=-1></font></td></tr><tr><td height=7><img width=1 height=1 alt=""></td></tr></table></td></tr></form></table>
+q=cache:tevxB9gUmUgJ:www.billybear4kids.com/jigsaw-puzzles/download-pg2.html+rhino.exe&hl=en&start=3>Cached</a> - <a class=fl href=/search?hl=en&lr=&ie=UTF-8&oe=UTF-8&q=related:www.billybear4kids.com/jigsaw-puzzles/download-pg2.html>Similar&nbsp;pages</a></font> <blockquote class=g><p class=g><a href=/url?sa=U&start=4&q=http://www.billybear4kids.com/DesktopCritters/DesktopPicturePostcards6.html&e=747 >Free YOUR Personalized Desktop Picture Postcards from <b>...</b></a><br><font size=-1>BillyBear4Kids.Com Welcomes YOU! Free Your Personalized Desktop<br>
+Picture Postcards - PuterPals Click Here advertisement banner. <b>...</b> 
+<br><font color=#008000>www.billybear4kids.com/DesktopCritters/ DesktopPicturePostcards6.html -  13k - </font><a class=fl href=http://64.233.167.104/search?q=cache:AHscHFg3kfkJ:www.billybear4kids.com/DesktopCritters/DesktopPicturePostcards6.html+rhino.exe&hl=en&start=4>Cached</a> - <a class=fl href=/search?hl=en&lr=&ie=UTF-8&oe=UTF-8&q=related:www.billybear4kids.com/DesktopCritters/DesktopPicturePostcards6.html>Similar&nbsp;pages</a><br>[ <a class=fl href=/search?hl=en&lr=&ie=UTF-8&oe=UTF-8&q=+site:www.billybear4kids.com+rhino.exe>More results from www.billybear4kids.com</a> ]</font> </blockquote><p class=g><a href=/url?sa=U&start=5&q=http://www.rhino3d.com/scripting/tutorial/assign_to_buttons.htm&e=747 >RhinoScript Tutorial: Assigning scripts to Rhino&#39;s User Interface</a><br><font
+DoEvents or Sleep (2000) &#39;search for Rhino hwnd m = GetAllWindows(0 <b>...</b> 
+<b>rhino</b>.<b>exe</b> In most cases you&#39;ll get error messages that give an indication <b>...</b> 
+<br clear=all><br><table cellspacing=0 cellpadding=0 border=0 width="100%"><tr><td class=k><img height=1 alt="" width=1></td></tr><tr><td align=center bgcolor=#e5ecf9>&nbsp;<br><table border=0 cellpadding=0 cellspacing=0 align=center><form method=GET action=/search><tr><td nowrap>
+input type=hidden name=hl value="en"><input type=hidden name=lr value=""><input type=hidden name=ie value="UTF-8"><input type=hidden name=oe value="UTF-8"></font></td></tr></form></table><br><font size=-1><a href=/swr?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&swrnum=49>Search&nbsp;within&nbsp;results</a> | <a href=/language_tools?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Language Tools</a> | <a href=/help/>Search&nbsp;Tips</a> | <a href=/quality_form?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8 target=_blank>Dissatisfied? Help us improve</a></font><br><br></td></tr><tr><td class=k><img height=1 alt="" width=1></td></tr></table></center>
+GET /nav_first.gif HTTP/1.1
+Host: www.google.com
+GET /images/logo_sm.gif HTTP/1.1
+Host: www.google.com
+GET /nav_current.gif HTTP/1.1
+Host: www.google.com
+GET /nav_page.gif HTTP/1.1
+Host: www.google.com
+GET /nav_next.gif HTTP/1.1
+Host: www.google.com
+GET /groups?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=wg HTTP/1.1
+Host: groups.google.com
+function ga(o,e){if (document.getElementById){a=o.id.substring(1); p = "";r = "";g = e.target;if (g) { t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h) r = h.id;}} else{h = e.srcElement;f = h.parentNode;if (f) p = f.id;t = h.id;}if (t==a || p==a || r==a) return true;location.href=document.getElementById(a).href}}
+ab=gf" onClick="return qs(this);">Froogle</a><sup><a href="http://froogle.google.com/froogle?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=gf" style="text-decoration:none;" onclick="return qs(this);"><font color=red>New!</font></a></sup>&nbsp;&nbsp;&nbsp;&nbsp;</font><font size=-1><b><a href="/options/" class=q>more&nbsp;&raquo;</a></b></font></td></tr></table></td></tr><tr><td nowrap><form name=gs method=GET action=/groups><input type=hidden name=hl value="en"><input type=hidden name=lr value=""><input type=hidden name=ie value="UTF-8"><input type=hidden name=oe value="UTF-8"><input type=text name=q size=41 maxlength=2048 value="rhino.exe"><font size=-1> <input type=submit name="btnG" value="Search"><span id=hf></span></font></td><td nowrap><font size=-2>&nbsp;&nbsp;<a href=/advanced_group_search?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Advanced&nbsp;Groups&nbsp;Search</a><br>&nbsp;&nbsp;<a href=/preferences?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Preferences</a>&nbsp;&nbsp;&nbsp;&nbsp;</font></td></tr></table><table cellpadding=0 cellspacing=0 border=0><tr><td><font size=-1></font></td></tr><tr><td height=7><img width=1 height=1 alt=""></td></tr></table></td></tr></form></table>
+<br clear=all><br><table cellspacing=0 cellpadding=0 border=0 width="100%"><tr><td class=k><img height=1 alt="" width=1></td></tr><tr><td align=center bgcolor=#fff4c2>&nbsp;<br><table border=0 cellpadding=0 cellspacing=0 align=center><form method=GET action=/groups><tr><td nowrap>
+GET /intl/en_ALL/images/groups_res.gif HTTP/1.1
+Host: groups.google.com
+GET /groups?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&selm=MPG.159359f528ff3d2798aaca%40news.ntlworld.com&rnum=2 HTTP/1.1
+Host: groups.google.com
+function ga(o,e){if (document.getElementById){a=o.id.substring(1); p = "";r = "";g = e.target;if (g) { t = g.id;f = g.parentNode;if (f) {p = f.id;h = f.parentNode;if (h) r = h.id;}} else{h = e.srcElement;f = h.parentNode;if (f) p = f.id;t = h.id;}if (t==a || p==a || r==a) return true;location.href=document.getElementById(a).href}}
+ab=gf" onClick="return qs(this);">Froogle</a><sup><a href="http://froogle.google.com/froogle?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8&sa=N&tab=gf" style="text-decoration:none;" onclick="return qs(this);"><font color=red>New!</font></a></sup>&nbsp;&nbsp;&nbsp;&nbsp;</font><font size=-1><b><a href="/options/" class=q>more&nbsp;&raquo;</a></b></font></td></tr></table></td></tr><tr><td nowrap><form name=gs method=GET action=/groups><input type=hidden name=hl value="en"><input type=hidden name=lr value=""><input type=hidden name=ie value="UTF-8"><input type=hidden name=oe value="UTF-8"><input type=text name=q size=41 maxlength=2048 value="rhino.exe"><font size=-1> <input type=submit name="btnG" value="Search"><span id=hf></span></font></td><td nowrap><font size=-2>&nbsp;&nbsp;<a href=/advanced_group_search?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Advanced&nbsp;Groups&nbsp;Search</a><br>&nbsp;&nbsp;<a href=/preferences?q=rhino.exe&hl=en&lr=&ie=UTF-8&oe=UTF-8>Preferences</a>&nbsp;&nbsp;&nbsp;&nbsp;</font></td></tr></table><table cellpadding=0 cellspacing=0 border=0><tr><td><font size=-1></font></td></tr><tr><td height=7><img width=1 height=1 alt=""></td></tr></table></td></tr></form></table>
+click.net/clk%3B7653963%3B8985256%3Bh%3Fhttp://users.wsj.com/WebIntegration/WebIntegrationServlet%3Fcall%3DR_ST%26KEY_EXT_CODE%3DAFFEX312&sa=l&ai=Awb19R8BkABe0OMLm04chMz5CffZgG8IvJDZAA34tB4jAg7EAgT9ABMgAYah0GL5_DAAAAAA&num=2><b>Illegal File Sharing</b></a>&nbsp;&#149;&nbsp;<font class=f size=-2>Comprehensive Coverage of All the&nbsp;Day&#39;s Events- Get a Free Trial Now!</font>&nbsp;&#149;&nbsp;<font color=green size=-1>www.WallStreetJournal.com</font></td></tr><tr><td class=ch id=taw2 onmouseover="ss('go to www.247downloads.com')" onclick=ga(this,event) onmouseout=cs()><font size=-1>&nbsp;<a id=aw2 href=http://www.googleadservices.com/pagead/adclick?adurl=http://www.247downloads.com/3_click.php%3Fa%3D11%26b%3D214%26c%3D1%26sub%3Dillegal%2Bfile%2Bsharing%26z%3D5&sa=l&ai=A5GWYR8BkABe0OMLm04chMz5C1nLgGcq873YAA34tB4zAg7EAwLKBBMwAYaxhbPv_DAAAAAA&num=3><b>File Sharing Program</b></a>&nbsp;&#149;&nbsp;<font class=f size=-2>Enjoy unlimited access to Movies,&nbsp;Music, Software, Games &amp; more!</font>&nbsp;&#149;&nbsp;<font color=green size=-1>www.247downloads.com</font></td></tr></table><table cellSpacing=0 cellPadding=0 width="100%" border=0><tr><td height=5><img alt="" width=1 height=1></td></tr></table>
+&gt; &gt; &gt; &gt;I failed to forget to point at my exams.</font>
+GET / HTTP/1.1
+Host: www.google.com
+GET /~gnome/rhino.exe HTTP/1.1
+Host: www.cs.uno.edu
+GetProcessWindowStation
+GetUserObjectInformationA
+GetLastActivePopup
+GetActiveWindow
+GetVersionExW
+GetLastError
+GetComputerNameW
+GetProcAddress
+GetModuleHandleW
+GetConsoleOutputCP
+GetConsoleMode
+GetFileType
+GetStdHandle
+GetModuleHandleA
+GetVersionExA
+GetModuleFileNameA
+GetModuleFileNameW
+GetEnvironmentStrings
+GetEnvironmentStringsW
+GetCommandLineA
+GetCommandLineW
+GetStartupInfoA
+GetCPInfo
+GetUserDefaultLCID
+GetLocaleInfoA
+GetStringTyp'
+GetStringTypeW
+GetSystemInfo
+GetProcessHeap
+GetLocaleInfoW
+GetACP
+GetOEMCP
+SetupDiGetDeviceInterfaceDetailW
+SetupDiGetClassDevsW
+PostThreadMessageW
+GetMessageW

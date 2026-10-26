@@ -1,0 +1,11 @@
+GET /tab.slide.hm.li.gif HTTP/1.1
+Accept: */*
+-------: ----:-----------------------------------------------------------------------------------------------------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Fri, 11 Jul 2003 02:30:59 GMT
+If-None-Match: "8033a7765447c31:8ec"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: 64.4.48.24
+Connection: Keep-Alive
+

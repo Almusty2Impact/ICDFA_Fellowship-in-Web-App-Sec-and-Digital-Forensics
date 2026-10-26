@@ -1,0 +1,13 @@
+POST /uilogin.srf?id=2 HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, application/x-shockwave-flash, */*
+Referer: http://loginnet.passport.com/login.srf?id=2&svc=mail&cbid=24325&msppjph=1&tw=0&fs=1&fsa=1&fsat=1296000&lc=1033&_lang=EN
+Accept-Language: en-us
+Content-Type: application/x-www-form-urlencoded
+---------------: ----- -------
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: login.passport.net
+Content-Length: 185
+Connection: Keep-Alive
+Cache-Control: no-cache
+
+mspprawqs=aWQ9MiZzdmM9bWFpbCZjYmlkPTI0MzI1Jm1zcHBqcGg9MSZ0dz0wJmZzPTEmZnNhPTEmZnNhdD0xMjk2MDAwJmxjPTEwMzMmX2xhbmc9RU4%3D&mspppostint=cHJlPWh1Z2VyaGlub2xvdmVyQGhvdG1haWwuY29tJnVpY29kZT0w

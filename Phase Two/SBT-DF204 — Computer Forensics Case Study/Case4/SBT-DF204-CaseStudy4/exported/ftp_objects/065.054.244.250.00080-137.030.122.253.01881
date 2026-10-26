@@ -1,0 +1,422 @@
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/5.0
+Date: Mon, 26 Apr 2004 22:24:44 GMT
+P3P:CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Connection: close
+Set-Cookie: HMSC0899=; expires=Wed Dec 31 16:00:01 1969; domain=.msn.com; path=/
+Set-Cookie: HMSC0899=227bighonkingrhino%40hotmail%2ecomOZRFcqu2IcaWBi4Ws7NiPGKDkfOZoaMwrvLm9HrJg4jSI9Nhd2D4VdpvTNx835Ekxm1NDp%21zPjsOQt%2aEIaDIg7OvzZ8i%215YvoT6LJOOQ8Dyi2GiLFpLnw8g1irfOUAQGbjz0wz8NO0mNKmicRbz4Lifl%21XqwKzTCxGDCMiYDdXstcDsKhtM6i%21QjBQkqNH5zUdkLzLotm0lGCZGCh%2aqcmw9gkqfj73XOZhEyoqwG56fyKjhUk7SKeIV5ydL3dhgda%21Suvqw8GKPUJ3sApAflgzEr%21ELm%21CJN40wynrk4jmvABHxfH3YPXU8Gtoupk8pCJJ89ojsCeShLWA7sTviiM4lWIURjYZ1eZoZOhl6QTCYn%2aaNoL0DO83Rxm25GZHdQZwYxcmoi49JaT843YqTXRuuYiBmkcyUWkcVbsT4V8qdRsKiOCnFhkg%24%24;  domain=.hotmail.msn.com; path=/
+Cache-Control: private
+Content-Type: text/html
+HMServer: H: bay1-f171.bay1.hotmail.com  V: WIN2K 09.08.01.0012 i  D: Mar 18 2004 21:10:28 S: 0
+
+<html>
+<head>
+<script language="JavaScript">
+IsNotBulkEnabled=IStatus=IsPrintEnabled=NewMenu=Junk=PutInFldr=Attach=Tools="";
+_UM = "curmbox=F000000001&a=ab578fdabe4963a212c2e6695bb25248";
+function IfUtf8(C)
+{	var N = (document.charset=="utf-8")?1:0
+if (N == C)	return true		
+var u = k = document.location.href
+if (u.indexOf("utf8=")<=0)                  
+u += "&utf8=9";
+u = u.replace(/(utf8=)\d/ig,"$1"+(N?"1":"0"))
+if (u != k)
+{	window.location.replace(u)
+var w = window.open("","","height=1,width=1,menubar=no,resizable=no,titlebar=no,scrollbars=no,status=no,toolbar=no,menubar=no,location=no");
+w.close()	
+}
+}
+IfUtf8(0)	
+</script>
+<title>MSN Hotmail - Inbox</title>
+<link rel="stylesheet" href="/cgi-bin/dasp/EN/hotmail___9080000065.css">
+<script language="JavaScript" src="/cgi-bin/dasp/EN/helppane___9080000001F.js"></script>
+<script language="JavaScript" src="/cgi-bin/dasp/EN/hotmail___90815000014.js"></script>
+<script event=onload for=window language=vbscript>
+on error resume next
+dim MsngrObj
+set MsngrObj = CreateObject("MSNMessenger.HotmailControl")
+If Err.Number <> 0 Then
+ExecuteGlobal "CA(1):BFX"
+Else
+MsngrCreateObj
+MIB
+End if
+</script>
+</head>
+<body bgcolor=#336699 Onload="CA(1);">
+<div id="HMname" style="visibility:hidden;position:absolute">bighonkingrhino@hotmail.com</div>
+<a name="top"></a>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr valign=top>
+<td width=450 style="padding-top:3px;">
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7341??PS=8315" class="F">MSN Home</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7342??PS=8315" class="F">My MSN</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<font class="F">Hotmail</font>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7345??PS=8315" class="F">Shopping</a>&#160;&#160;</td>	
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7346??PS=8315" class="F">Money</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7347??PS=8315" class="F">People & Chat</a>&#160;&#160;</td>
+
+</tr></table>
+</td>
+<td><span style="width:30px;">&nbsp;</span></td>
+<td>
+<a href="http://by1fd.bay1.hotmail.msn.com/cgi-bin/logout?curmbox=F000000001&a=ab578fdabe4963a212c2e6695bb25248&t=1083018285&loru=&id=2&fs=1&cb=_lang%3dEN%26country%3dUS&ct=1083018285">
+<img border=0 src="http://65.54.244.24/crs_918.gif" alt="Sign out of .NET Passport sites" width="66" height="19">
+</a>
+</td>
+<td><span style="width:27px;">&nbsp;</span></td>
+<td nowrap valign=middle>
+<font class="G"><label for="q">Web Search:</label></font>
+</td>
+<td><span style="width:6px;">&nbsp;</span></td>
+<td width=100% nowrap valign=middle>
+<form method="GET" name="websearch" action="http://search.msn.com/results.asp" style="margin-bottom:0px;margin-bottom:0px;">
+<input type="Hidden" name="RS" value="CHECKED">
+<input type="Hidden" name="Form" value="HM">
+<input type="Hidden" name="cp" value="1252">
+<input type="Hidden" name="v" value=1>
+<input type="text" id="q" name="q" size=14 accesskey="S" style="WIDTH:65%">
+<span style="width:3px;"></span>
+<input type="submit" value="Go" size=4>
+</form>
+</td>
+</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr><td><img src="http://65.54.244.24/spacer.gif" width=1 height=5></td></tr>
+<tr>
+<td width=100% align=center>
+<IFRAME FRAMEBORDER=0 SCROLLING=NO MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=468 HEIGHT=60 SRC="http://rad.msn.com/ADSAdClient31.dll?GetAd?PG=HOTY43?SC=LG?HM=04544b4654584a12505655475905477679084e3757042654155a535d57460e374149616d?LOC=I?TF=_NEW?ID=00064000865D45D3?UC=100?PS=8315?PI=44364?AP=1011?NA=1144?NC=9523" tabindex="-1"></IFRAME>
+
+</td>
+</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width=100% >
+<tr><td colspan=2><img src="http://65.54.244.24/spacer.gif" height=1 width=779></td></tr>
+<tr>
+<td>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr> 
+<td rowspan=2 background="http://65.54.244.24/tab.bg.dln.gif">
+<a href="http://g.msn.com/1HM9EN/141??PS=8315" target="_top"><img src="http://65.54.244.24/lgo_msn_118x35.gif" width=118 height=35 border=0 alt="go to MSN"></a>
+</td>
+<td rowspan=2 background="http://65.54.244.24/tab.bg.dln.gif"><font class="D">Hotmail</font></td>
+<td rowspan=2><img src="http://65.54.244.24/tab.slide.hm.li.gif"></td>
+<td colspan=12 height=13 bgcolor=#336699></td>
+</tr>
+<tr>
+<td><img src="http://65.54.244.24/tab.separator.off.gif"></td>
+<td background="http://65.54.244.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="javascript:G('/cgi-bin/hmhome?');" tabindex=120 class="E">Today</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://65.54.244.24/tab.separator.on.l.gif"></td>
+<td background="http://65.54.244.24/tab.bg.on.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="/cgi-bin/HoTMaiL?curmbox=F000000001&a=ab578fdabe4963a212c2e6695bb25248" tabindex=121 class="E">Mail</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://65.54.244.24/tab.separator.on.r.gif"></td>
+<td background="http://65.54.244.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="/cgi-bin/dasp/calendarupsell.asp?" tabindex=122  class="E">Calendar</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://65.54.244.24/tab.separator.off.gif"></td>
+<td background="http://65.54.244.24/tab.bg.off.gif" nowrap>
+&nbsp;&nbsp;&nbsp;<a href="javascript:G('/cgi-bin/addresses?');" tabindex=123 class="E">Contacts</a>&nbsp;&nbsp;&nbsp;
+</td>
+<td><img src="http://65.54.244.24/tab.separator.end.gif"></td>
+<td background="http://65.54.244.24/tab.bg.sln.gif" width=100%>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td valign=bottom>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td background="http://65.54.244.24/tab.bg.sln.gif"><img src="http://65.54.244.24/spacer.gif" width=1 height=35></td>
+<td background="http://65.54.244.24/tab.bg.sln.gif" nowrap align=right>
+<a href="/cgi-bin/options?section=mail&subsection=&curmbox=F000000001&a=ab578fdabe4963a212c2e6695bb25248" class="G">Options</a>&nbsp;&nbsp;<font class="G">|</font>&nbsp;&nbsp;<a href="javascript:CPH('PIM_Inbox');" class="G">Help</a>&nbsp;&nbsp;&nbsp;
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+<tr bgcolor="#4791C5"><td colspan=3><img src="http://65.54.244.24/spacer.gif" height=1 width=779></td></tr>
+<tr bgcolor="#4791C5"><td style="padding-left:10px;height:20px;border-bottom:1px solid #10659E">
+<table border=0 cellpadding=0 cellspacing=0 width="100%">
+<tr>
+<td width=100% align="left" valign="middle"><font class="G">bighonkingrhino@hotmail.com</font></td>
+</tr>
+</table>
+</td>
+<td align=right style="padding-left:10px;height:20px;border-bottom:1px solid #10659E">
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td align="right" valign="middle">
+<a href="http://g.msn.com/1HM9EN/2946??PS=8315&DI=7474" target="_top" class="G" style="white-space:nowrap;">Free Newsletters</a>
+<font class="G">&nbsp;|&nbsp;</font><a href="http://g.msn.com/1HM9EN/2920??PS=8315&DI=7474" target="_top"  class="G" style="white-space:nowrap;">MSN Featured Offers</a>
+&nbsp;</td>
+</tr></table></td></tr></table><iframe id="Hfrm" class="NN""></iframe>
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="N" id="HMTB">
+<tr><td colspan=2><img src="http://65.54.244.24/spacer.gif" height=1 width=779></td></tr>
+<tr><td>
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="O">
+<tr>
+<td style="width:8px"><img src="http://65.54.244.24/spacer.gif" height=1 width=8></td>
+<td id="NewTD" class="P" nowrap onmouseover="MME(event, NewMenu);" onmouseout="MME(event, NewMenu);" onblur="MME(event, NewMenu);" onclick="G('/cgi-bin/compose?');"><img src="http://65.54.244.24/i.p.writenew.gif" border=0 align=absmiddle hspace=1 alt="New"> <a href="#" onclick="G('/cgi-bin/compose?');return false;" tabindex=1>New</a></td>
+<td id="NewDdTD" class="P" nowrap onmouseover="MME(event, NewMenu);" onmouseout="MME(event, NewMenu);" onblur="MME(event, NewMenu);" onclick="MCH(event,NewMenu)"><img src="http://65.54.244.24/i.p.downarrow.gif" border=0 align=absmiddle hspace=1>
+</td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Subm('delete',0,1)"><img src="http://65.54.244.24/i.p.delete.gif" border=0 align=absmiddle hspace=1 alt="Delete"> <a href="#" onclick="Subm('delete',0,1);return false;" tabindex=1>Delete</a></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Subm('blocksender',0,1);"><img src="http://65.54.244.24/i.p.block.gif" border=0 align=absmiddle hspace=1 alt="Block"> Block</td>
+<td class="LL">|</td>
+<td id="JunkTD" class="P" nowrap onmouseover="MME(event, Junk);" onmouseout="MME(event, Junk);" onblur="MME(event, Junk);" onclick="MCH(event,Junk)"><img src="http://65.54.244.24/i.p.junkmail.gif" border=0 align=absmiddle hspace=1 alt="Junk Mail"> Junk <img src="http://65.54.244.24/i.p.downarrow.gif" border=0 align=absmiddle hspace=1></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="G('/cgi-bin/HoTMaiL?FindMSG=1');"><img src="http://65.54.244.24/i.p.search.gif" border=0 align=absmiddle hspace=1 alt="Find Message"> Find</td>
+<td class="LL">|</td>
+<td id="PutInFTD" class="P" nowrap onmouseover="MME(event, PutInFldr);" onmouseout="MME(event, PutInFldr);" onblur="MME(event, PutInFldr);" onclick="MCH(event,PutInFldr)"><img src="http://65.54.244.24/i.p.putinfolder.gif" border=0 align=absmiddle hspace=1 alt="Put In Folder"> Put in Folder <img src="http://65.54.244.24/i.p.downarrow.gif" border=0 align=absmiddle hspace=1></td>
+<td class="LL">|</td>
+<td class="P" nowrap onmouseover="MO()" onmouseout="MU()" onclick="Subm('markunread',0,1)"><img src="http://65.54.244.24/i.p.new.gif" border=0 align=absmiddle hspace=1 alt="Mark as Unread"> Mark As Unread</td>
+<td width=100%>&nbsp;</td>
+</tr>
+</table>
+</td>
+<td style="CURSOR:auto">
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="O"><tr><td width=100%>&nbsp;</td></tr></table>
+</td>
+</tr>
+<tr><td colspan=2><img src="http://65.54.244.24/spacer.gif" height=1 width=779></td></tr>
+</table>
+<table id="NewTable" onclick="MCH(event,NewMenu,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/compose?');"><img src="http://65.54.244.24/i.p.writenew.gif" border=0 align=absmiddle hspace=1 alt="New"> Mail Message</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('http://g.msn.com/8HMBEN/7668??PS=8315');"><img src="http://65.54.244.24/i.p.greetcard.gif" border=0 align=absmiddle hspace=1 alt="Greeting Card"> Greeting Card</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/dofolders?Create.x=Create&from=inbox');"><img src="http://65.54.244.24/i.p.folder.gif" border=0 align=absmiddle hspace=1 alt="Folder"> Folder</TD></TR>
+<TR><TD class="V"><img src="http://65.54.244.24/spacer.gif" height=1 width=1></TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.d.gif" border=0 align=absmiddle hspace=1 alt="Calendar"> Appointment</TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.meet.req.d.gif" border=0 align=absmiddle hspace=1 alt="Meeting Request"> Meeting Request</TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.task.d.gif" border=0 align=absmiddle hspace=1 alt="Task"> Task</TD></TR>
+<TR><TD class="Y" onmouseover="MOD_D()" onmouseout="MUD_D()" onclick="G('/cgi-bin/dasp/calendarupsell.asp?');"><img src="http://65.54.244.24/i.p.cal.note.d.gif" border=0 align=absmiddle hspace=1 alt="Note"> Note</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/doaddresses?_HMaction=Create');"><img src="http://65.54.244.24/i.p.cont.individual.gif" border=0 align=absmiddle hspace=1 alt="Contact"> Contact</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="G('/cgi-bin/doaddresses?_HMaction=GCreate');"><img src="http://65.54.244.24/i.p.cont.group.gif" border=0 align=absmiddle hspace=1 alt="Group"> Group</TD></TR>
+</table>
+<script language="javascript" >
+var NewMenu = new MenuObj("NewMenu", "NewTable", "NewTD", "NewDdTD", "T", "P", "Q","Hfrm","");
+</script>
+<table id="FldrTable" onclick="MCH(event,PutInFldr,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000001');">Inbox</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000002');">Sent Messages</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000003');">Drafts</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'F000000004');">Trash Can</TD></TR>
+<TR><TD class="V"><img src="http://65.54.244.24/spacer.gif" height=1 width=1></TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="PI('MoveTo',0,1,'CreateFolder');">New Folder</TD></TR>
+</table>
+<script language="javascript" >
+var PutInFldr = new MenuObj("PutInFldr", "FldrTable", "PutInFTD", "", "T", "P", "Q","Hfrm","");
+</script>
+<table id="JunkTable" onclick="MCH(event,Junk,true)" class="U">
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Subm('report',0,1);">Report Junk E-Mail</TD></TR>
+<TR><TD class="W" onmouseover="MO_D()" onmouseout="MU_D()" onclick="Subm('report_n_block',0,1);">Report and Block Sender</TD></TR>
+</table>
+<script language="javascript" >
+var Junk = new MenuObj("Junk", "JunkTable", "JunkTD", "", "T", "P", "Q","Hfrm","");
+</script>
+<script language="javascript">
+function HM(l){document.location = "/cgi-bin/HoTMaiL?"+l+"&"+_UM}
+function HMFO(f){document.location = "/cgi-bin/HoTMaiL?a=ab578fdabe4963a212c2e6695bb25248&curmbox="+f}
+</script>
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="AA">
+<tr>
+<td valign=top width=115 bgcolor=#DBEAF5>
+<table border=0 cellpadding=0 cellspacing=0 width=100% style="PADDING-LEFT:5px;PADDING-RIGHT:5px;PADDING-TOP:2px;PADDING-BOTTOM:1px;">
+<tr height=20>
+<td align=right>
+<a href="javascript:HM('_HMaction=HideFolders')"><img src="http://65.54.244.24/i.p.arr.left.gif" height=9 width=9 border=0 alt="&lt;&lt; Hide Folders"></a>
+</td>
+</tr><tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="100%" style="padding: 3 0 0 5;">
+<table cellpadding="0" border="0" cellspacing="0" width="100%" style="background-color:white; border: #104a7b 1px solid; padding:1 0 1 0;">
+<tr>
+<td><div style="height:5px; width:1%; font-size:1px; background-color:#76D769"></div></td>
+</tr></table>
+</td>
+<td style="padding: 3 5 0 0;">&nbsp;1%</td>
+</tr>
+<tr>
+<td colspan="2" style="padding: 0 5 5 5;">
+<br>
+<a href="http://g.msn.com/8HMBENUS/7899??PS=8315">Get Extra Storage</a>
+</td>
+</tr></table>
+</td>
+</tr><tr>
+<td height=24><a href="javascript:G('/cgi-bin/folders?')" class="BB">Folders</a></td></tr>
+<tr><td nowrap><a href="javascript:HMFO('F000000001')" tabindex="130" class="K"><img src="http://65.54.244.24/i.p.folder.inbox.gif" border=0 hspace=5>Inbox<font style="FONT-WEIGHT:normal"> (2)</font></a></td></tr>
+<tr><td nowrap><a href="/cgi-bin/protect?login=bighonkingrhino&disk=65.54.244.69_d465&curmbox=F000000005&from=HoTMaiL&screen=filter" tabindex="131" ><img src="http://65.54.244.24/i.p.trash.gif" border=0 hspace=5>Junk E-Mail</a></td></tr>
+<tr><td nowrap><a href="javascript:HMFO('F000000002')" tabindex="132" ><img src="http://65.54.244.24/i.p.folder.sent.gif" border=0 hspace=5>Sent Messages</a></td></tr>
+<tr><td nowrap><a href="javascript:HMFO('F000000003')" tabindex="133" ><img src="http://65.54.244.24/i.p.folder.drafts.gif" border=0 hspace=5>Drafts</a></td></tr>
+<tr><td nowrap><a href="javascript:HMFO('F000000004')" tabindex="134" ><img src="http://65.54.244.24/i.p.trash.gif" border=0 hspace=5>Trash Can</a></td></tr>
+<tr><td><a href="javascript:G('/cgi-bin/folders?')">Manage Folders</a></td></tr>
+</table>
+<img src="http://65.54.244.24/spacer.gif" height=1 width=115>
+</td>
+<td valign=top width=100%>
+<form name="hotmail" method="post" action="/cgi-bin/HoTMaiL" style="margin-bottom:0px;margin-top:0px;">
+<input type="hidden" name="curmbox" value="F000000001">
+<input type="hidden" name="HrsTest" value="">
+
+<input type="hidden" name="js" value="">
+<input type="hidden" name="_HMaction" value="">
+<input type="hidden" name="page" value="">
+<input type="hidden" name="tobox" value="">
+<input type="hidden" name="ReportLevel" value="">
+<table border=0 cellpadding=0 cellspacing=0 width=100% style="PADDING-LEFT:7px;PADDING-RIGHT:7px;PADDING-TOP:2px;PADDING-BOTTOM:2px;">
+<tr align=right>
+<td height=20 nowrap>
+<font class="CC">Show me mail from: </font>
+<select name="SMMF" onChange="window.location.href='/cgi-bin/HoTMaiL?'+_UM+'&SMMF='+this[this.selectedIndex].value;">
+<option value="0" selected>Everyone
+<option value="1" >People I Know
+<option value="2" >Unknown Senders
+</select>
+&nbsp;
+</td>
+</tr>
+</table>
+<table border=0 cellpadding=0 cellspacing=0 width=100% class="EE" id=MsgTable>
+<tr bgcolor=#DBEAF5>
+<td width=1 height=24 align=center  >
+<a href="javascript:HM('sort=Importance')">
+<img src="http://65.54.244.24/i.p.importance.h.gif" border=0 alt="High Importance"></a>
+</td>
+<td width=25 height=24 align=center  >
+<a href="javascript:HM('sort=New')">
+<img src="http://65.54.244.24/i.p.new.gif" width=14 height=11 hspace=5 border=0 alt="New Mail"></a>
+</td>			
+<td width=25 height=24 align=center  >
+<a href="javascript:HM('sort=Attachment')">
+<img src="http://65.54.244.24/i.p.attach.gif" border=0 alt="Attached File"></a>
+</td>
+<td width=25>
+<input name="allbox" type="checkbox" onClick="CA();" title="Select or de-select all messages" tabindex="105">
+</td>
+<td width=1>&nbsp;</td>
+<td width="60"   nowrap>
+<a href="javascript:HM('sort=From')" class="FF">From</a>
+</td>
+<td width=100  >
+<a href="javascript:HM('sort=Subject')" class="FF">Subject</a>
+</td>
+<td width="50"  bgcolor=#A0C6E5 nowrap>
+<a href="javascript:HM('sort=Date')" class="FF"><img src="http://65.54.244.24/i.p.sort.desc.gif" height=7 hspace=3 width=7 border=0 alt="sorted in descending order">Date</a>
+</td>
+<td   align=right nowrap>
+<a href="javascript:HM('sort=Size')" class="FF">Size</a>
+</td>
+</tr>
+<tr bgcolor=#FFF7E5 name="hugerhinolover@hotmail.com">
+<td>
+</td>
+<td><img src="http://65.54.244.24/i.F424A.gif" class="KK" alt='Unknown Sender'></td>
+<td></td>
+<td><input type="checkbox" name="MSG1083018200.32" onClick="CCA(this)"></td>
+<td></td>
+<td><a href="javascript:G('/cgi-bin/getmsg?msg=MSG1083018200.32&start=178&len=610&imgsafe=n')">Huge Lover</a>&nbsp;</td>
+<td>New rhino pics&nbsp;</td>
+<td>Apr&nbsp;26</td>
+<td align=right>1KB</td></tr>
+<tr bgcolor=#FFF7E5 name="staff@hotmail.com">
+<td>
+</td>
+<td><img src="http://65.54.244.24/i.1EF9B0.gif" class="KK" alt='Official Mailing'></td>
+<td></td>
+<td><input type="checkbox" name="MSG1083017540" onClick="CCA(this)"></td>
+<td></td>
+<td><a href="javascript:G('/cgi-bin/getmsg?msg=MSG1083017540')">Hotmail Staff</a>&nbsp;</td>
+<td>Welcome to MSN Hotmail&nbsp;</td>
+<td>Apr&nbsp;26</td>
+<td align=right>1KB</td></tr>
+<tr><td style="BORDER-TOP:none;HEIGHT:1px;" colspan=5></td><td style="BORDER-TOP:none;HEIGHT:1px;" width=50%><img src="http://65.54.244.24/spacer.gif" height=1 width=110></td><td style="BORDER-TOP:none;HEIGHT:1px;" width=50%><img src="http://65.54.244.24/spacer.gif" height=1 width=210></td><td style="BORDER-TOP:none;HEIGHT:1px;" colspan=2></td></tr>
+</table>
+<table border=0 cellpadding=3 cellspacing=0 width=100% style="BORDER-TOP:1px solid #C1CDD8;BORDER-LEFT:1px solid #FFFFFF;BORDER-RIGHT:1px solid #FFFFFF;">
+<tr bgcolor=#DBEAF5 height=22>
+<td width=100% align=center>
+2 Messages, 2 Unread
+</td>
+<td align=right nowrap>
+</td>
+</tr>
+</table>
+</form>
+<img src="http://65.54.244.24/spacer.gif" height=1 width=502>
+</td>
+<td valign=top width=160 bgcolor=#DBEAF5>
+<IFRAME FRAMEBORDER=0 SCROLLING=NO MARGINHEIGHT=0 MARGINWIDTH=0 WIDTH=160 HEIGHT=600 SRC="http://rad.msn.com/ADSAdClient31.dll?GetAd?PG=PROHO2?SC=D1?HM=04544b4654584a12505655475905477679084e3757042654155a535d57460e374149616d?LOC=I?TF=_NEW?ID=00064000865D45D3?UC=100?PS=8315?PI=44364?AP=1090?NA=1140?NC=9523" tabindex="-1"></IFRAME>
+
+</td>
+</tr>
+</table>
+<script language="javascript">
+var frm = document.hotmail;
+folderID = "F000000001";
+MessengerCell = "4";
+ColspanSize = "5";
+</script>
+<table border=0 cellpadding=0 cellspacing=0 width=100%>
+<tr>
+<td height=24 colspan=2>
+&nbsp;&nbsp;&nbsp;<a href="http://g.msn.com/1HM9EN/141??PS=8315" class="HH">Get the latest updates from MSN</a>			
+</td>
+</tr>
+<tr>
+<td height=24>
+<table border=0 cellpadding=0 cellspacing=0><tr>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7341??PS=8315" class="F">MSN Home</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7342??PS=8315" class="F">My MSN</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<font class="F">Hotmail</font>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7344??PS=8315" class="F">Search</a>&#160;&#160;</td>	
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7345??PS=8315" class="F">Shopping</a>&#160;&#160;</td>	
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7346??PS=8315" class="F">Money</a>&#160;&#160;</td>
+<td><font class="G">|</font></td>
+<td nowrap>&#160;&#160;<a href="http://g.msn.com/8HMBEN/7347??PS=8315" class="F">People & Chat</a>&#160;&#160;</td>
+
+</tr></table>
+</td>
+<td nowrap align=right>
+<a href="http://g.msn.com/0nwenus0/A9/23??PS=8315&DI=8315" class="G" target="_NEW">Feedback</a>&nbsp;&nbsp;<font class="G">|</font>&nbsp;&nbsp;
+<a href="javascript:CPH('PIM_Inbox');" class="G">Help</a>&nbsp;&nbsp;&nbsp;
+</td>
+</tr>
+<tr>
+<td height=20 style="BORDER-TOP:1px solid #87b3d0" nowrap colspan=2>
+&nbsp;<font class="G">&copy; 2004 Microsoft Corporation. All rights reserved.</font> <a href="http://g.msn.com/1HM9EN/147??PS=8315" target="_top" class="G">TERMS OF USE</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/1HM9ENUS/164??PS=8315" target="_top" class="G">Advertise</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/1HM9EN/146??PS=8315" target="_top" class="G">TRUSTe Approved Privacy Statement</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/1HM9ENUS/163??PS=8315" target="_top" class="G">GetNetWise</a>
+&nbsp;&nbsp;<a href="http://g.msn.com/0nwenus0/A7/24??PS=8315" class="G">Anti-Spam Policy</a>
+</td>
+</tr>
+<tr><td colspan=2><img src="http://65.54.244.24/spacer.gif" height=1 width=779></td></tr>
+</table>
+<IMG SRC="http://h.msn.com/c.gif?RF=&PI=44364&DI=7474&PS=8315" width=1 height=1>
+
+</body>
+</html>
+<!-- H: bay1-f171.bay1.hotmail.com -->
+<!-- V: WIN2K 09.08.01.0012 i -->
+<!-- D: Mar 18 2004 21:10:28-->
+<!-- S: 0-->

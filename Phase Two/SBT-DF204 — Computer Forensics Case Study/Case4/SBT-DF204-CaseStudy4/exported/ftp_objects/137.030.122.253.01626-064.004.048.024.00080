@@ -1,0 +1,11 @@
+GET /tab.separator.on.l.gif HTTP/1.1
+Accept: */*
+-------: ----:-----------------------------------------------------------------------------------------------------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Tue, 03 Jun 2003 21:21:53 GMT
+If-None-Match: "806e1727162ac31:8ec"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: 64.4.48.24
+Connection: Keep-Alive
+

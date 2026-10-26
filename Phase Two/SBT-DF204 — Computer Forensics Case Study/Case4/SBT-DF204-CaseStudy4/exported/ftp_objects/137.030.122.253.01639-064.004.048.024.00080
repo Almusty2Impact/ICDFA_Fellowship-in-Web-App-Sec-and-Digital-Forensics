@@ -1,0 +1,11 @@
+GET /tab.bg.sln.gif HTTP/1.1
+Accept: */*
+-------: ----:-----------------------------------------------------------------------------------------------------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Fri, 21 Mar 2003 01:25:17 GMT
+If-None-Match: "80bcc5ba48efc21:8ec"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: 64.4.48.24
+Connection: Keep-Alive
+

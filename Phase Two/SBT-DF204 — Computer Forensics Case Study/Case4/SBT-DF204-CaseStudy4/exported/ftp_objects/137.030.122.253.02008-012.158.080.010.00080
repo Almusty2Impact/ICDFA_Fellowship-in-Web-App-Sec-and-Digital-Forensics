@@ -1,0 +1,7 @@
+GET /Class3CodeSigning2001.crl HTTP/1.1
+Accept: */*
+User-Agent: CryptRetrieveObjectByUrl::InetSchemeProvider
+Host: crl.verisign.com
+Connection: Keep-Alive
+Cache-Control: no-cache
+

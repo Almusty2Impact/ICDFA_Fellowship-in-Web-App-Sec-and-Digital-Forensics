@@ -1,0 +1,24 @@
+GET /c/home/bb/bb_bg.jpg HTTP/1.1
+Accept: */*
+-------: ----:--------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Tue, 25 Nov 2003 18:31:09 GMT
+If-None-Match: "d0aa924b82b3c31:8a4"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: hp.msn.com
+Connection: Keep-Alive
+Cookie: MC1=V=3&GUID=0e9761a61f3f4650b4842b72ab1d3d52; SITESERVER=ID=UID=0e9761a61f3f4650b4842b72ab1d3d52; mh=MSFT; theme=00; y=1; SPEED=B
+
+GET /c/home/bb/drd_rpt.gif HTTP/1.1
+Accept: */*
+-------: ----:--------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Tue, 30 Sep 2003 01:53:48 GMT
+If-None-Match: "783eb2b0f586c31:87f"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: hp.msn.com
+Connection: Keep-Alive
+Cookie: MC1=V=3&GUID=0e9761a61f3f4650b4842b72ab1d3d52; SITESERVER=ID=UID=0e9761a61f3f4650b4842b72ab1d3d52; mh=MSFT; theme=00; y=1; SPEED=B
+

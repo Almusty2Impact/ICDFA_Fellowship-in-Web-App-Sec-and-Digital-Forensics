@@ -1,0 +1,63 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=1209600
+Date: Mon, 26 Apr 2004 22:23:37 GMT
+Content-Length: 15501
+Content-Type: text/css
+ETag: "79ad3becbb0c41:873"
+Expires: Wed, 05 May 2004 20:19:58 GMT
+Last-Modified: Wed, 03 Mar 2004 01:07:39 GMT
+Accept-Ranges: bytes
+Server: Microsoft-IIS/5.0
+P3P: CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Connection: keep-alive
+
+body {margin: 0px 0px 0px 0px; color: #000000; background-color: #004E82; }
+form,h1,h2,h3,h4,h5,h6,p {margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; }
+.sf {background-image: url(http://hp.msn.com/c/home/sf3.jpg); background-color: #004e82; background-position: bottom; background-repeat: no-repeat; }
+.textad {padding: 2px 2px 4px 0px; }
+.sfsb {background-color: #004e82; color: #ffffff; background-image: url(http://hp.msn.com/c/home/sf3_rpt.gif); background-position: bottom; background-repeat: repeat-x; }
+.sfsb a, .sfsb a:visited {color: #ffffff; }
+.sfb {border-bottom: 1px solid #87B3D0; }
+.sfbtm {background-color: #026AAB; }
+.dMSNME_1 {color: #ffffff; }
+ul {list-style-image: url(http://hp.msn.com/c/home/bullet.gif); list-style-position: outside; margin: 0px 0px 5px 10px; }
+ol {list-style-position: outside; margin: -2px 0px 0px 23px; }
+li {margin: 0px 0px 1px 1px; }
+li a {margin: 0px 0px 0px -1px; }
+.cm {margin: 13px 0px 0px 0px; color: #000000; background-color: #ffffff; }
+.ct {padding: 0px 0px 5px 4px; }
+hr {height: 1px; }
+.fd {width: 100%; }
+.nip {padding: 0px 0px 0px 0px; }
+.nip .rt {padding: 5px 0px 0px 10px; }
+.nip .dk {color: #026CAD; padding: 3px 0px 3px 6px; }
+.nip .dk a, .nip .dk a:hover {color: #ffffff; }
+.nip .hd {color: #004E82; padding: 0px 2px 0px 1px; }
+.nip .hd a {color: #004E82; }
+.nip .ct {padding: 0px 0px 1px 0px; }
+.nip .rt .lt {margin: 0px 0px 0px -6px; }
+.nip .rt .lt .ct, .bbex .gcl .ct {padding: 0px 0px 0px 0px; }
+.nip .md a {color: #0266A8; }
+.nip .ys {width: 150px; padding: 4px 3px 3px 6px; }
+.nip .il {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#FAFCFE, endColorstr=#EDF5FD, GradientType=1); background-color: #EDF5FD; }
+.nip .ilrc {background-color: #EDF5FD; }
+.nip .blft {width: 229px; }
+.nip .sb {padding: 9px 1px 9px 10px; background-image: url(http://hp.msn.com/c/home/shade.gif); background-repeat: no-repeat; background-position: center left; width: 100px; }
+.nip .sb .ct {padding: 0px 0px 0px 3px; }
+.nip .sb .rt {padding: 0px 0px 0px 7px; }
+.nip .sb hr {padding: 9px 0px 9px 0px; color: #c8c8c8; }
+.nip .sb img {margin: 2px 0px 2px 0px; }
+.nip .md {padding: 3px 0px 3px 6px; background-color: #CADDF1; }
+.nip .adp {font-weight: bold; padding: 0px 0px 0px 0px; }
+.hd {padding: 3px 5px 2px 4px; }
+.vz .ct {padding-top: 7px; }
+.qlink .hd {padding: 3px 5px 0px 4px; }
+.lcol {background-color: #C4D9EF; color: #004277; background-image: url(http://hp.msn.com/c/home/rfade.jpg); background-position: right; background-repeat: repeat-y; margin-bottom: 13px; width: 130px; }
+.lcol .hd a, .lcol .hd a:visited {color: #000000; }
+.lcol a, .lcol a:visited {color: #004E82; }
+.rcol {color: #004472; background-image: url(http://hp.msn.com/c/home/lfade2.jpg); background-position: left; background-repeat: repeat-y; padding: 0px 11px 0px 10px; margin-bottom: 13px; }
+.rcolb {background-color: #edf5fd; background-image: url(http://hp.msn.com/c/home/lfade2.jpg); background-position: left; background-repeat: repeat-y; }
+a {color: #000000; }
+.ccol {background-color: #ffffff; background-image: url(http://hp.msn.com/c/home/nip_bk.jpg); background-position: top; background-repeat: no-repeat; padding: 4px 5px 0px 5px; }
+.bd {font-weight: 600; }
+.on td {b

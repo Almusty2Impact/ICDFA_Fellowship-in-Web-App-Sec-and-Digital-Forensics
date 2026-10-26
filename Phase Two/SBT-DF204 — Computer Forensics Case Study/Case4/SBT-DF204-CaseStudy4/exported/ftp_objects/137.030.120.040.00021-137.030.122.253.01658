@@ -1,0 +1,16 @@
+220 cook FTP server ready.
+331 Password required for gnome.
+230 User gnome logged in.
+200 PORT command successful.
+150 Opening ASCII mode data connection for rhino3.jpg.
+226-WARNING! 321 bare linefeeds received in ASCII mode
+   File may not have transferred correctly.
+226 Transfer complete.
+200 Type set to I.
+200 PORT command successful.
+150 Opening BINARY mode data connection for rhino3.jpg.
+226 Transfer complete.
+221-You have transferred 193797 bytes in 2 files.
+221-Total traffic for this session was 194382 bytes in 2 transfers.
+221-Thank you for using the FTP service on cook.
+221 Goodbye.

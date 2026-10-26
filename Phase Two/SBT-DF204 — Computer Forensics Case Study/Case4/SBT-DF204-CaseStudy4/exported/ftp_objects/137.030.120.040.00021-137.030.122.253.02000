@@ -1,0 +1,11 @@
+220 cook FTP server ready.
+331 Password required for gnome.
+230 User gnome logged in.
+200 Type set to I.
+200 PORT command successful.
+150 Opening BINARY mode data connection for contraband.zip.
+226 Transfer complete.
+221-You have transferred 230566 bytes in 1 files.
+221-Total traffic for this session was 230914 bytes in 1 transfers.
+221-Thank you for using the FTP service on cook.
+221 Goodbye.

@@ -1,0 +1,5 @@
+1 authenticate login
+Z29sZGVu
+a2lua3khdGFuZw==
+2 select "INBOX"
+3 UID fetch 1:* (FLAGS)
