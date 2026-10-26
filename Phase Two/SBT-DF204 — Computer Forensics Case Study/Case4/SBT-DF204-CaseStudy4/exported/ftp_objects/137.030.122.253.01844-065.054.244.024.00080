@@ -1,0 +1,11 @@
+GET /crs_918.gif HTTP/1.1
+Accept: */*
+-------: ----:---------------------------------------------------------------------------------------------------------
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Wed, 02 Jul 2003 20:19:26 GMT
+If-None-Match: "05baf3bd740c31:950"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: 65.54.244.24
+Connection: Keep-Alive
+

@@ -1,0 +1,10 @@
+GET /logout.srf?_lang=EN&lc=1033&id=2&ru=http%3a%2f%2fwww%2emsn%2ecom&dontall= HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, application/x-shockwave-flash, */*
+-------: ----:---------------------------------------------------
+Accept-Language: en-us
+---------------: ----- -------
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: loginnet.passport.com
+Connection: Keep-Alive
+Cookie: MSPPre=hugerhinolover@hotmail.com; BrowserTest=Success?; MSPAuth=6H8*CNn!7DBgUN7AQIuAWVLGoEBKRd9VSD2tN4fBCWnYMnhw4mLtnO0OhtMOrPQiQgDqROQx9xBxpOIlhp2dCleA$$; MSPProf=6jU3kdWKPCJaBzZTrB3euyxSRuiOE51djbrJfY7nUXy2195HYu4d9JqjHNrOEA5R!XPti!XFxfDeUMkofNoi2oNQz6rVgDZDZmjnodMhnFdsni2xZ!7SPslVNuao!qjhFL0VhnKqdHNsM$; MSPVis=2; MSPSoftVis=@0@:@; MSPRequ=lt=1083017927&co=1&id=2
+

@@ -1,0 +1,12 @@
+GET /1033/L/PPIE.css HTTP/1.1
+Accept: */*
+Referer: http://login.passport.net/uilogin.srf?id=2
+Accept-Language: en-us
+---------------: ----- -------
+If-Modified-Since: Thu, 14 Aug 2003 19:34:09 GMT
+If-None-Match: "6ea82d89b62c31:8c1"
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: login.passport.net
+Connection: Keep-Alive
+Cookie: MSPRequ=lt=1083017928&co=1&id=2
+

@@ -1,0 +1,10 @@
+GET /resetcookie.srf?ct=1083018213 HTTP/1.1
+Accept: */*
+-------: ----:------------------------------------------------------------------------------------------------
+Accept-Language: en-us
+---------------: ----- -------
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: login.passport.com
+Connection: Keep-Alive
+Cookie: MSPPre=hugerhinolover@hotmail.com; BrowserTest=Success?; MSPVis=2; MSPSoftVis=@:@
+

@@ -1,0 +1,152 @@
+HTTP/1.1 100 Continue
+Server: Microsoft-IIS/5.0
+Date: Mon, 26 Apr 2004 22:26:26 GMT
+PPServer: H: Lawpplogu4b006
+
+HTTP/1.1 200 OK
+Server: Microsoft-IIS/5.0
+Date: Mon, 26 Apr 2004 22:26:26 GMT
+PPServer: H: Lawpplogu4b006
+Connection: close
+Content-Type: text/html
+Expires: Mon, 26 Apr 2004 22:25:27 GMT
+Cache-Control: no-cache
+cachecontrol: no-store
+Pragma: no-cache
+P3P: CP="DSP CUR OTPi IND OTRi ONL FIN"
+Set-Cookie: MSPVis= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/;version=1
+Set-Cookie: MSPAuth= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPProf= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSec= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSec1= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/;HTTPOnly= ;version=1
+Set-Cookie: MSPSec= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/ppsecure;HTTPOnly= ;version=1
+Set-Cookie: MSPDom= ; expires=Thu, 30-Oct-1980 16:00:00 GMT;domain=.passport.net;path=/;HTTPOnly= ;version=1
+Authentication-Info: Passport1.4 da-status=logout
+Content-Length: 3934
+
+
+                                                                <html>
+<head>
+<title>Sign out of .NET Passport</title>
+<noscript><META http-equiv="REFRESH" content="0;url=http://login.passport.net/uilogout.srf?_lang=EN&lc=1033&id=2&ru=http%3a%2f%2fwww%2emsn%2ecom&dontall=&ec=1&vis="></noscript>
+<script language="javascript">
+var iTotalImage = 0;
+var ids = new Array('2','3');
+    if (ids.length == 0) {
+        TimeoutReturn();
+    }
+var idLoggedIn = new Array(ids.length);
+var badImageSrc = "http://www.passportimages.com/1033/signout_bad.gif";
+var goodImageSrc = "http://www.passportimages.com/1033/signout_good.gif";
+for (var i=0; i < idLoggedIn.length; i++) {
+    idLoggedIn[i] = 0;
+}
+function getCookieVal (offset) {
+    var endstr = document.cookie.indexOf (";", offset);
+    if (endstr == -1)
+        endstr = document.cookie.length;
+    return unescape(document.cookie.substring(offset, endstr));
+}
+function GetCookie(name) {
+    var arg = name + "=";
+    var alen = arg.length;
+    var clen = document.cookie.length;
+    var i = 0;
+    while (i < clen) {
+        var j = i + alen;
+        if (document.cookie.substring(i, j) == arg)
+            return getCookieVal (j);
+        i = document.cookie.indexOf(" ", i) + 1;
+        if (i == 0) break; 
+    }
+    return null;
+}
+function SetCookie(name,value,expires,path,domain,secure) {
+    document.cookie = name + "=" + value +
+    ((expires) ? "; expires=" + expires.toGMTString() : "") +
+    ((path) ? "; path=" + path : "") +
+    ((domain) ? "; domain=" + domain : "") +
+    ((secure) ? "; secure" : "");
+}
+function DeleteCookie(name,path,domain) {
+    if (GetCookie(name)) {
+        document.cookie = name + "=+" +
+            ((path) ? "; path=" + path : "") +
+            ((domain) ? "; domain=" + domain : "") +
+            "; expires=Thu, 30 Oct 1980 16:00:00 GMT";
+    }
+}
+function SetVisitedSites(value) {
+    var persistDate = new Date(2037, 11, 30);
+    SetCookie("MSPVis", value, persistDate, "/", ".passport.net", false);
+}
+function ExpireVisitedSites() {
+    DeleteCookie("MSPVis", "/", ".passport.net")
+}
+function ResetVisitedCookie() 
+{
+    var visSites = "";
+    var hasID = false;
+    var badImage;
+    for (var i=0; i < idLoggedIn.length; i++) {
+        if (idLoggedIn[i] > 1) {
+            if (hasID)
+                visSites += "$" + ids[i];
+            else
+                visSites += ids[i];
+            hasID = true;
+        }
+    }
+    if (hasID) {
+        SetVisitedSites(visSites);
+        window.location.href = "http://login.passport.net/uilogout.srf?_lang=EN&lc=1033&id=2&ru=http%3a%2f%2fwww%2emsn%2ecom&dontall=&ec=1&vis=";
+    } else {
+        ExpireVisitedSites();
+        window.location.href = "http://www.msn.com";
+        window.setTimeout("TimeoutReturn()", 1000);
+    }
+}
+function SiteLogout(index)
+{
+    if (idLoggedIn[index] == 0)
+    {
+        idLoggedIn[index] = 1;
+        iTotalImage++;
+        if (idLoggedIn.length == iTotalImage)
+        {
+            ResetVisitedCookie();
+        }
+    }
+}
+function BadImage(index)
+{
+    if (idLoggedIn[index] == 0)
+    {
+        idLoggedIn[index] = 2;
+        iTotalImage++;
+        if (idLoggedIn.length == iTotalImage)
+        {
+            ResetVisitedCookie();
+        }
+    }
+}
+function TimeoutReturn()
+{
+    top.location.href = "http://www.msn.com";
+}
+function BodyLoad() 
+{
+    if (idLoggedIn.length == 0) {
+        TimeoutReturn();
+    }
+}
+function OnBack(){}
+</script>
+</head>
+<body onLoad="BodyLoad()">
+<img name="ID0" onload="SiteLogout(0)" onerror="BadImage(0)" src="http://www.hotmail.msn.com/cgi-bin/expire?ct=1083018387" width="1" height="1" border="0">
+<img name="ID1" onload="SiteLogout(1)" onerror="BadImage(1)" src="http://login.passport.com/resetcookie.srf?ct=1083018387" width="1" height="1" border="0">
+
+</body>
+</html>
+                        

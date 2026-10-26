@@ -1,0 +1,6 @@
+USER gnome
+PASS gnome123
+TYPE I
+PORT 137,30,122,253,6,121
+STOR rhino1.jpg
+QUIT

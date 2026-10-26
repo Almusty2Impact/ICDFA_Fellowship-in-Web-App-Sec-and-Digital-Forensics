@@ -1,0 +1,20 @@
+HTTP/1.1 302 Redirected
+Server: Microsoft-IIS/5.0
+Date: Mon, 26 Apr 2004 22:26:25 GMT
+P3P:CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Connection: close
+Set-Cookie: HMID7397=; expires=Wed Dec 31 16:00:01 1969; domain=.hotmail.msn.com; path=/
+Set-Cookie: MSPAuth=; expires=Wed Dec 31 16:00:01 1969; domain=.msn.com; path=/
+Set-Cookie: MSPProf=; expires=Wed Dec 31 16:00:01 1969; domain=.msn.com; path=/
+Set-Cookie: HMSC0899=; expires=Wed Dec 31 16:00:01 1969; domain=.hotmail.msn.com; path=/
+Set-Cookie: HMMsgr=; expires=Wed Dec 31 16:00:01 1969; domain=.hotmail.msn.com; path=/
+Set-Cookie: HMSatchmo=; expires=Wed Dec 31 16:00:01 1969; domain=.hotmail.msn.com; path=/
+Set-Cookie: PIM=; expires=Wed Dec 31 16:00:01 1969; domain=.msn.com; path=/
+Expires: Mon, 01 Jan 1999 00:00:00 GMT
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html
+Authentication-Info: Passport1.4 da-status=logout
+Location: http://loginnet.passport.com/logout.srf?_lang=EN&lc=1033&id=2&ru=http%3a%2f%2fwww%2emsn%2ecom&dontall=
+HMServer: H: bay1-f22.bay1.hotmail.com  V: WIN2K 09.08.01.0012 i  D: Mar 18 2004 21:10:28 S: 0
+

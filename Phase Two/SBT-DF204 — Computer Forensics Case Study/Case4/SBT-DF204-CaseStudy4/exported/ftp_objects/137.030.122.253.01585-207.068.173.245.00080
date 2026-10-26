@@ -1,0 +1,9 @@
+GET / HTTP/1.1
+Accept: image/gif, image/x-xbitmap, image/jpeg, image/pjpeg, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, application/x-shockwave-flash, */*
+Accept-Language: en-us
+---------------: ----- -------
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; .NET CLR 1.1.4322)
+Host: www.hotmail.com
+Connection: Keep-Alive
+Cookie: SITESERVER=ID=80e65efacd04a6aae7188199adf05478
+
