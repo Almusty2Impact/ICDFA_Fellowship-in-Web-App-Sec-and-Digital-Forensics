@@ -1,0 +1,62 @@
+working/Android_Logical/sdcard/DJI/dji.go.v4/
+├── CACHE_IMAGE
+│   ├── thumb_33177fb665068406_1523611394000.jpg
+│   ├── thumb_5be64acbef28816c_1523610990000.jpg
+│   ├── thumb_6d9f39f0ca9decc3_1523610988000.jpg
+│   ├── thumb_7f92b744bbc53b3a_1523610992000.jpg
+│   ├── thumb_dd609e61934788b3_1523611494000.jpg
+│   └── thumb_ed8c1a297e1061b4_1524152656000.jpg
+├── databases
+├── DJI_RECORD
+│   ├── 2018_06_19_14_50_39.info
+│   ├── 2018_06_19_14_50_39.mp4
+│   └── analytics
+├── DJI_SPALSH
+│   └── 2018-05-09.jpg
+├── editor
+│   ├── auto
+│   ├── music
+│   └── save
+├── FlightRecord
+│   ├── DJIFlightRecord_2018-06-19_[14-50-34].txt
+│   └── MCDatFlightRecords
+├── LOG
+│   ├── CACHE
+│   ├── ERROR_POP_LOG
+│   └── MAP
+├── Package
+├── RECORD_VOICE
+├── VideoEditor
+│   └── production
+├── videoguide
+│   ├── connect_step_connect_rc_mavicair.mp4
+│   ├── connect_step_connect_rc_spark.mp4
+│   ├── connect_step_connect_wifi_mavicair.mp4
+│   ├── connect_step_connect_wifi_spark.mp4
+│   ├── connect_step_install_battery_mavicair.mp4
+│   ├── connect_step_install_battery_spark.mp4
+│   ├── connect_step_paring_mavicair.mp4
+│   ├── connect_step_paring_spark.mp4
+│   ├── connect_step_turnon_all_mavicair.mp4
+│   ├── connect_step_turnon_all_spark.mp4
+│   ├── connect_step_turnon_drone_mavicair.mp4
+│   ├── connect_step_turnon_drone_spark.mp4
+│   ├── video_guide_land.mp4
+│   └── video_guide_port.mp4
+├── visual_guide
+│   ├── parallel_tracking_tutorial.mp4
+│   ├── quick_shot_circle_tutorial.mp4
+│   ├── quick_shot_comet_tutorial.mp4
+│   ├── quick_shot_diagonal_tutorial.mp4
+│   ├── quick_shot_planet_tutorial.mp4
+│   ├── quick_shot_rocky_tutorial.mp4
+│   ├── quick_shot_spiral_tutorial.mp4
+│   ├── spotlight_tutorial.mp4
+│   ├── tapfly_backward.mp4
+│   ├── tapfly_coordinate.mp4
+│   ├── tapfly_forward.mp4
+│   ├── tapfly_free.mp4
+│   └── trace_tutorial.mp4
+└── xtScreenshots
+
+23 directories, 37 files
