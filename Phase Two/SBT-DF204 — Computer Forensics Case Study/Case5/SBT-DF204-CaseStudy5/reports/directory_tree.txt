@@ -1,0 +1,24 @@
+working/Android_Logical/
+├── property
+│   ├── net.hostname
+│   └── ro.serialno
+└── sdcard
+    ├── Alarms
+    ├── amap
+    ├── Android
+    ├── asdfasdgazxcv
+    ├── DCIM
+    ├── DJI
+    ├── dji.pilot
+    ├── Download
+    ├── Movies
+    ├── Music
+    ├── Notifications
+    ├── Pictures
+    ├── Playlists
+    ├── Podcasts
+    ├── Ringtones
+    ├── Samsung
+    └── TWRP
+
+20 directories, 2 files
